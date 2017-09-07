@@ -3,8 +3,8 @@ layout: post
 title: "#01 Qué es y cómo anda el Maratón Linuxero"
 date: 2017-07-16
 categories: Podcast
-image: images/logoMaratonLinuxero.png
-podcast_link: https://ia601503.us.archive.org/8/items/01QuEsYCCmoAndaElMaratanLinuxero/%2301%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero.mp3
+image: /images/logoMaratonLinuxero.png
+podcast link: https://ia601503.us.archive.org/8/items/01QuEsYCCmoAndaElMaratanLinuxero/%2301%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero.mp3
 tags: [audio, podcast, pruebas,]
 comments: true
 ---
@@ -34,10 +34,4 @@ Y aquí el audio extraído:
 
 Recuerda que puedes **contactar** de las siguientes formas:
 
-+ Blog: <https://maratonlinuxero.github.io/>
-+ Twitter: <https://twitter.com/maratonlinuxero>
-+ Correo: <maratonlinuxero@gmail.com>
-+ Telegram: <https://t.me/maratonlinuxero>
-+ Youtube: <https://www.youtube.com/channel/UCqFf7ygeietihuh5GSEj3oQ>
-+ Feed Podcast Maratón Linuxero: <http://maratonlinuxero.github.io/feed.xml>
-+ Audios en Archive.org: <https://archive.org/details/@maratonlinuxero>
+{% include contact.html %}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Maratón Linuxero en vivo
-permalink: /directo/
+permalink: /directo
 ---
 Aquí tienes el vídeo en bruto, los 9 directos:
 
@@ -26,7 +26,7 @@ Si utilizas dispositivos IOS, utiliza el siguiente reproductor con formato mp3
      Your browser does not support the audio element.
 </audio>
 
-Dan Bernal Tapia ha creado una app de Radio Maratón para Android: [Descarga](http://maratonlinuxero.github.io/Maraton-Linuxero_1.3.apk)
+Dan Bernal Tapia ha creado una app de Radio Maratón para Android: [Descarga](/Maraton-Linuxero_1.3.apk)
 
 Para no perderte ninguna de las pruebas y el directo del 3 de septiembre, lo mejor es suscribirte a nuesto canal <https://youtube.com/maratonlinuxero>
 

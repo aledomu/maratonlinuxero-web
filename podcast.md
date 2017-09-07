@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Podcast del Maratón Linuxero
-permalink: /podcast/
+permalink: /podcast
 ---
 
 ¿Te perdiste un directo? ¡No pasa nada!  
 Recogeremos todos los momentos y los pondremos a disposición de la comunidad en forma de podcast.
-El feed está creado desde GitHub: <http://maratonlinuxero.github.io/feed.xml>
+El feed está creado desde GitLab: </feed.xml>
 
 
 
@@ -25,4 +25,3 @@ El feed está creado desde GitHub: <http://maratonlinuxero.github.io/feed.xml>
     </article>
   {% endfor %}
 </div>
-

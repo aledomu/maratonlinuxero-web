@@ -3,8 +3,8 @@ layout: post
 title: "#04 Último ensayo del Maratón Linuxero"
 date: 2017-08-27
 categories: Podcast
-image: images/logoMaratonLinuxero.png
-podcast_link: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo.mp3
+image: /images/logoMaratonLinuxero.png
+podcast link: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo.mp3
 tags: [audio, podcast, pruebas,]
 comments: true
 ---
@@ -48,13 +48,4 @@ Y aquí el audio extraído:
 Recuerda que sólo queda 1 semana para el gran evento.
 Si quieres **contactar** con nosotros, puedes hacerlo de las siguientes formas:
 
-+ Blog: <https://maratonlinuxero.github.io/>
-+ Telegram: <https://t.me/maratonlinuxero>
-+ Mastodon: <https://mastodon.social/@maratonlinuxero>
-+ Twitter: <https://twitter.com/maratonlinuxero>
-+ Correo: <maratonlinuxero@gmail.com>
-+ Youtube: <https://www.youtube.com/maratonlinuxero>
-+ Radio Maratón: <http://www.radiomaraton.ml>
-+ Feed Podcast Maratón Linuxero: <http://maratonlinuxero.github.io/feed.xml>
-+ Feed Podcast Maratón Linuxero formato ogg: <http://maratonlinuxero.github.io/feed_ogg.rss>
-+ Audios en Archive.org: <https://archive.org/details/@maratonlinuxero>
+{% include contact.html %}
