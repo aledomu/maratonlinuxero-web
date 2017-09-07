@@ -1,0 +1,48 @@
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+        <div class="site-info">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <p class="site-description">{{ site.description }}</p>
+
+          {% if countdown.activo %}
+            <div id="countdown" style="margin-top:5px;"></div>
+          {% endif %}
+        </div>
+
+
+        <nav id="nav-list">
+          <a href="{{ site.baseurl }}/">Inicio</a>
+          <a href="{{ site.baseurl }}/noticias">Noticias</a>
+          <a href="{{ site.baseurl }}/directo">Directo</a>
+          <a href="{{ site.baseurl }}/horarios">Horarios</a>
+          <a href="{{ site.baseurl }}/podcast">Podcast</a>
+          <a href="{{ site.baseurl }}/contacto">Contacto</a>
+          <a href="{{ site.baseurl }}/acercade">Acerca de...</a>
+          <a href="{{ site.baseurl }}/deja-tu-audio">Envíanos tu audio</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  {% if countdown.activo %}
+    {% include countdown.html %}
+  {% endif %}
+</body>
