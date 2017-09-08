@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Maratón Linuxero en vivo
-permalink: /directo
+permalink: /directo/
 ---
 Aquí tienes el vídeo en bruto, los 9 directos:
 

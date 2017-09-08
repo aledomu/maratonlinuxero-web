@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Podcast del Maratón Linuxero
-permalink: /podcast
+permalink: /podcast/
 ---
 
 ¿Te perdiste un directo? ¡No pasa nada!  

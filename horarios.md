@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Horario del Maratón Linuxero
-permalink: /horarios
+permalink: /horarios/
 ---
 ![#CartelDirectos](/images/carteldirectosmaratonlinuxero.png)  
 Obra realizada por Dan Bernal Tapia (CC BY-NC-SA)

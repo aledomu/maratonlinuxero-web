@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Métodos de contacto
-permalink: /contacto
+permalink: /contacto/
 ---
 
 Si quieres <strong>contactar</strong> con nosotros lo puedes hacer a través de:

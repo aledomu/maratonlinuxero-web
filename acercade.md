@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de nosotros
-permalink: /acercade
+permalink: /acercade/
 ---
 
 <img src="/images/logoMaratonLinuxero.png" width="200" style="float: right; margin: 5%;">

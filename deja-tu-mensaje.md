@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Envíanos tu audio
-permalink: /deja-tu-audio
+permalink: /deja-tu-audio/
 ---
 
 Si quieres, puedes enviarnos tu audio-mensaje grabándolo en el widget de aquí abajo.
