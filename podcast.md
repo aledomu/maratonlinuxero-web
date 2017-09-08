@@ -14,14 +14,14 @@ El feed está creado desde GitLab: </feed.xml>
   {% for post in site.categories.Podcast %}
     <article class="post">
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <h5><div class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</div></h5>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Sigue leyendo...</a>
+      <a href="{{ post.url }}" class="read-more">Sigue leyendo...</a>
     </article>
   {% endfor %}
 </div>
