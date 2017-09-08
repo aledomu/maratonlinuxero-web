@@ -6,7 +6,9 @@ permalink: /podcast/
 
 ¿Te perdiste un directo? ¡No pasa nada!  
 Recogeremos todos los momentos y los pondremos a disposición de la comunidad en forma de podcast.
-El feed está creado desde GitLab: </feed.xml>
+El feed está creado desde GitLab:  
+Feed mp3: <https://maratonlinuxero.org/feed.xml>  
+Feed ogg: <https://maratonlinuxero.org/feed_ogg.rss>
 
 
 
