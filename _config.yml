@@ -28,9 +28,8 @@ footer-links:
   mastodon: maratonlinuxero
   android: Maraton-Linuxero_1.3.apk
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: maratonlinuxero
+# Enter your Isso URL to enable commenting on posts
+isso: 
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
