@@ -4,6 +4,7 @@ title: "#02 Avanzando en el Maratón Linuxero"
 date: 2017-07-30
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
+youtube-id: dtyrImIRius
 podcast-link: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
 comments: true
@@ -30,7 +31,7 @@ Diseñadores y artistas también se están sumando al evento con carteles y prom
 
 Aquí tienes la emisión en Youtube: 
 
-{% include youtubePlayer.html id="dtyrImIRius" %}
+{% include youtubePlayer.html %}
 
 Y aquí el audio extraído:
 

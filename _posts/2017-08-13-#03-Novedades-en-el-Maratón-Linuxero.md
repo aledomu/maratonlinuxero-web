@@ -4,6 +4,7 @@ title: "#03 Novedades en el Maratón Linuxero"
 date: 2017-08-13
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
+youtube-id: xGhf-OQftyY
 podcast-link: https://ia601508.us.archive.org/27/items/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
 comments: true
@@ -20,7 +21,7 @@ El último previo al directo será el domingo 27 de agosto a partir de las 15:00
 
 Aquí tienes la emisión en Youtube: 
 
-{% include youtubePlayer.html id="xGhf-OQftyY" %}
+{% include youtubePlayer.html %}
 
 Y aquí el audio extraído:
 

@@ -1,1 +1,1 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{% if include.id == null %}{{ page.youtube-id }}{% else %}{{ include.id }}{% endif %}" frameborder="0" allowfullscreen></iframe>

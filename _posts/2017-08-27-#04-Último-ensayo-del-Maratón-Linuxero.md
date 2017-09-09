@@ -4,6 +4,7 @@ title: "#04 Último ensayo del Maratón Linuxero"
 date: 2017-08-27
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
+youtube-id: mHjgFF0aX3Y
 podcast-link: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo
 tags: [audio, podcast, pruebas]
 comments: true
@@ -37,7 +38,7 @@ Para tomar el pulso a las distros actuales, Paco Estrada, Yoyo Fernández, David
 
 Aquí tienes la emisión en Youtube: 
 
-{% include youtubePlayer.html id="mHjgFF0aX3Y" %}
+{% include youtubePlayer.html %}
 
 Y aquí el audio extraído:
 

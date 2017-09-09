@@ -4,6 +4,7 @@ title: "#01 Qué es y cómo anda el Maratón Linuxero"
 date: 2017-07-16
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
+youtube-id: xx87M-JDwVs
 podcast-link: https://ia601503.us.archive.org/8/items/01QuEsYCCmoAndaElMaratanLinuxero/%2301%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
 comments: true
@@ -23,7 +24,7 @@ Para ello, lo más directo es ponerte en contacto a través del grupo de Telegra
 
 Aquí tienes la emisión en Youtube:
 
-{% include youtubePlayer.html id="xx87M-JDwVs" %}
+{% include youtubePlayer.html %}
 
 Y aquí el audio extraído:
 
