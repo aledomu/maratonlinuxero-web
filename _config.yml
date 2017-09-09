@@ -23,9 +23,22 @@ twitter: maratonlinuxero
 facebook:
 email: maratonlinuxero@gmail.com
 youtube: https://www.youtube.com/maratonlinuxero
-rss: feed.xml
+rss: /feed
 archiveorg: maratonlinuxero
 android: /Maraton-Linuxero_1.3.apk
+
+# Podcast Feed Settings
+podcast-url: /
+podcast-album-art: /images/logoMaratonLinuxero.png
+podcast-title: Sesiones del I Maratón Linuxero.
+podcast-owner: Maratón Linuxero
+podcast-category: Technology
+podcast-subcategory-one: Linux
+podcast-explicit: no
+podcast-author: Podcasteros Linuxeros
+podcast-description: Los audios del I Maratón Linuxero.
+podcast-summary: Los audios del I Maratón Linuxero.
+podcast-subtitle: Los audios del I Maratón Linuxero.
 
 # Enter your Isso URL to enable commenting on posts
 isso: 
@@ -70,20 +83,6 @@ plugins_dir:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  
-# Podcast Feed Settings
-podcast_url: /
-podcast_album_art: /images/logoMaratonLinuxero.png
-podcast_title: Sesiones del I Maratón Linuxero.
-podcast_owner: Maratón linuxero
-podcast_email: maratonlinuxero@gmail.com
-podcast_category: Technology
-podcast_subcategory_one: Linux
-podcast_explicit: "no"
-podcast_author: Podcasteros Linuxeros
-podcast_description: Los audios del I Maratón Linuxero.
-podcast_summary: Los audios del I Maratón Linuxero.
-podcast_subtitle: Los audios del I Maratón Linuxero.
 
 # Exclude these files from your production _site
 exclude:

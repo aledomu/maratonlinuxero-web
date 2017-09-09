@@ -4,8 +4,8 @@ title: "#03 Novedades en el Maratón Linuxero"
 date: 2017-08-13
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
-podcast link: https://ia601508.us.archive.org/27/items/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero.mp3
-tags: [audio, podcast, pruebas,]
+podcast-link: https://ia601508.us.archive.org/27/items/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero
+tags: [audio, podcast, pruebas]
 comments: true
 ---
 En esta 4ª entrega de los previos al Maratón linuxero hemos querido realizar 3 horas de emisión para seguir avanzando en los ensayos. Como en el anterior episodio fuimos muchos los contertulios a la vez, unos 15, decidimos realizar varios directos divididos por temáticas y colaboradores, sin intertar pasarnos de más de 6.

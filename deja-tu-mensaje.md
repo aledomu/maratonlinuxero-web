@@ -3,7 +3,6 @@ layout: page
 title: Envíanos tu audio
 permalink: /deja-tu-audio/
 ---
-
 Si quieres, puedes enviarnos tu audio-mensaje grabándolo en el widget de aquí abajo.
 
 Los audios que nos envíeis los publicaremos durante el maratón. Puedes felicitar a los organizadores y colaboradores, contarnos anécdotas, desearnos mucha suerte... o cualquier cosa que nos quieras contar ;)

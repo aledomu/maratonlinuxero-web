@@ -4,8 +4,8 @@ title: "#04 Último ensayo del Maratón Linuxero"
 date: 2017-08-27
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
-podcast link: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo.mp3
-tags: [audio, podcast, pruebas,]
+podcast-link: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo
+tags: [audio, podcast, pruebas]
 comments: true
 ---
 El 27 de agosto hemos tenido nuestra última prueba antes del evento.

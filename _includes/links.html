@@ -7,7 +7,6 @@
   {% if site.email %}<li>Correo: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
   {% if site.youtube %}<li>Youtube: <a href="{{ site.youtube }}">{{ site.youtube }}</a></li>{% endif %}
   <li>Radio Maratón: <a href="http://www.radiomaraton.ml">http://www.radiomaraton.ml</a></li>
-  {% if site.rss %}<li>Feed Podcast en formato mp3: <a href="{{ site.rss }}">Maratón Linuxero</a></li>{% endif %}
-  <li>Feed Podcast en formato ogg: <a href="/feed_ogg.rss">Maratón Linuxero</a></li>
+  {% if site.rss %}<li>Feed Podcast: <a href="{{ site.rss }}">Maratón Linuxero</a></li>{% endif %}
   {% if site.archiveorg %}<li>Audios en Archive.org: <a href="https://archive.org/details/@{{ site.archiveorg }}">@{{ site.archiveorg }}</a></li>{% endif %}
 </ul>

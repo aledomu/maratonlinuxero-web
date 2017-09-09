@@ -3,7 +3,7 @@ layout: post
 title: "Carteles, promos y vídeos"
 date: 2017-08-04
 categories:
-tags: [promo, cartel, vídeo,]
+tags: [promo, cartel, vídeo]
 comments: true
 ---
 Un aspecto muy importante del evento es su promoción y máxima difusión en la linuxfera.  

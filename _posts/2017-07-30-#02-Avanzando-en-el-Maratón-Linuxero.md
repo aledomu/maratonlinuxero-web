@@ -4,8 +4,8 @@ title: "#02 Avanzando en el Maratón Linuxero"
 date: 2017-07-30
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
-podcast link: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero.mp3
-tags: [audio, podcast, pruebas,]
+podcast-link: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero
+tags: [audio, podcast, pruebas]
 comments: true
 ---
 Tercer ensayo del Maratón linuxero donde reunimos hasta 15 colaboradores y podcasters en la sala Jitsi para comentar los avances en estas últimas 2 semanas y probar la emisión en Youtube y varias radios online.

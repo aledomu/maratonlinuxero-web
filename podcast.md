@@ -3,13 +3,11 @@ layout: page
 title: Podcast del Maratón Linuxero
 permalink: /podcast/
 ---
-
 ¿Te perdiste un directo? ¡No pasa nada!  
 Recogeremos todos los momentos y los pondremos a disposición de la comunidad en forma de podcast.
 El feed está creado desde GitLab:
 
-<a href="/feed.xml">Feed mp3</a>
-<a href="/feed._ogg.rss">Feed ogg</a>
+<a href="{{ site.rss }}">Podcast Feed</a>
 
 
   <div class="posts">

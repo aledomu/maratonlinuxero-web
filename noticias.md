@@ -3,7 +3,6 @@ layout: page
 title: Noticias
 permalink: /noticias/
 ---
-
 En forma de blog añadiremos las noticias que vayan surgiendo previas a la Maratón.
 
 <div class="posts">

@@ -3,7 +3,6 @@ layout: page
 title: Acerca de nosotros
 permalink: /acercade/
 ---
-
 <img src="/images/logoMaratonLinuxero.png" width="200" style="float: right; margin: 5%;">
 El **Maratón Linuxero** es un proyecto creado por podcasters y oyentes de GNU/Linux que quieren realizar un evento en directo a través de aplicaciones y servicios de Software Libre.
 El domingo 3 de septiembre de 15:00 a 24:00 horas ( horario español UTC+2) ofreceremos 9 horas de emisiones con podcasters de habla hispana.
