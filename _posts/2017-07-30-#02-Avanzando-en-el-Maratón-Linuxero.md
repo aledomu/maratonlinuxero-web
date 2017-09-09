@@ -41,4 +41,3 @@ Y aquí el audio extraído:
 
 Recuerda que puedes **contactar** de las siguientes formas:
 
-{% include contact.html %}

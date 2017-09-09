@@ -48,4 +48,3 @@ Y aquí el audio extraído:
 Recuerda que sólo queda 1 semana para el gran evento.
 Si quieres **contactar** con nosotros, puedes hacerlo de las siguientes formas:
 
-{% include contact.html %}

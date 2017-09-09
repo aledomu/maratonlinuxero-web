@@ -68,4 +68,5 @@ Obra realizada por Marta García (CC BY-NC-SA)
 
 Puedes utilizar todas estas obras para difundir el Maratón Linuxero respetando su licencia (Creative Commons, Reconocimiento-NoComercial-CompartirIgual). 
 
-Si eres **diseñador y/o artista** también puedes sumarte al evento con otros carteles, promos, vídeos, temas musicales.... Tú también puedes unirte. Ponte en contacto con nosotros a través de Telegram: <https://t.me/maratonlinuxero>
+Si eres **diseñador y/o artista** también puedes sumarte al evento con otros carteles, promos, vídeos, temas musicales.... Tú también puedes unirte. Ponte en contacto con nosotros de las siguientes formas:
+

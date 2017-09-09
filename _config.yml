@@ -14,19 +14,18 @@ avatar: /images/logoMaratonLinuxero.png
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  email: maratonlinuxero@gmail.com
-  facebook:
-  gitlab: maratonlinuxero
-  rss: /feed.xml
-  twitter: maratonlinuxero
-  youtube: maratonlinuxero
-  feed: /feed.xml
-  telegram: maratonlinuxero
-  archiveorg: maratonlinuxero
-  mastodon: maratonlinuxero
-  android: Maraton-Linuxero_1.3.apk
+# Metadata and links
+gitlab: maratonlinuxero
+telegram: maratonlinuxero
+mastodon: https://mastodon.social/@maratonlinuxero
+mastodon_ref: maratonlinuxero@mastodon.social
+twitter: maratonlinuxero
+facebook:
+email: maratonlinuxero@gmail.com
+youtube: https://www.youtube.com/maratonlinuxero
+rss: feed.xml
+archiveorg: maratonlinuxero
+android: /Maraton-Linuxero_1.3.apk
 
 # Enter your Isso URL to enable commenting on posts
 isso: 

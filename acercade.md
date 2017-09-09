@@ -30,14 +30,4 @@ Actualmente el **Canal de Telegram** nos sirve para vertebrar y tomar decisiones
 
 **Para más información**, te dejamos las siguientes formas de contacto:
 
-+ Blog: </>
-+ Telegram: <https://t.me/maratonlinuxero>
-+ Mastodon: <https://mastodon.social/@maratonlinuxero>
-+ Twitter: <https://twitter.com/maratonlinuxero>
-+ Correo: <maratonlinuxero@disroot.org> <maratonlinuxero@gmail.com>
-+ Youtube: <https://www.youtube.com/maratonlinuxero>
-+ Radio Maratón: <http://www.radiomaraton.ml>
-+ Feed Podcast Maratón Linuxero: </feed.xml>
-+ Feed Podcast Maratón Linuxero formato ogg: </feed_ogg.rss>
-+ Audios en Archive.org: <https://archive.org/details/@maratonlinuxero>
-<br clear="all"/>
+{% include links.html %}
