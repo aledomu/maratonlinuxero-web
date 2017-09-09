@@ -25,9 +25,7 @@ Aquí tienes la emisión en Youtube:
 
 Y aquí el audio extraído:
 
-<audio controls>
-  <source src="https://ia601508.us.archive.org/27/items/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero.mp3" type="audio/mpeg">
-</audio>
+{% include audioPlayer.html extension="mp3" mime-type="audio/mpeg" %}
 
 
 Recuerda que puedes **contactar** de las siguientes formas:

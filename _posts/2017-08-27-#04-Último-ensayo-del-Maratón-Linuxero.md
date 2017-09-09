@@ -42,9 +42,7 @@ Aquí tienes la emisión en Youtube:
 
 Y aquí el audio extraído:
 
-<audio controls>
-  <source src="https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo.mp3" type="audio/mpeg">
-</audio>
+{% include audioPlayer.html extension="mp3" mime-type="audio/mpeg" %}
 
 Recuerda que sólo queda 1 semana para el gran evento.
 Si quieres **contactar** con nosotros, puedes hacerlo de las siguientes formas:
