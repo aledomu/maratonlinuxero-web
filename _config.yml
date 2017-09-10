@@ -10,9 +10,20 @@ description: El 3 de septiembre, 9 horas de directos podcasteros sobre software 
 
 # URL of your avatar or profile pic (you could use your GitLab profile pic)
 avatar: /images/logoMaratonLinuxero.png
-#
-# Flags below are optional
-#
+
+# If you're hosting your site at a Project repository on GitLab Pages
+# (http://yourusername.gitlab.io/repository-name)
+# and NOT your User repository (http://yourusername.gitlab.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+# Your website URL
+# Used for Sitemap.xml and your RSS feed
+url: /
+
+# Enter your Isso URL to enable commenting on posts
+isso: 
+
 
 # Metadata and links
 gitlab: maratonlinuxero
@@ -23,6 +34,7 @@ twitter: maratonlinuxero
 facebook:
 email: maratonlinuxero@gmail.com
 youtube: https://www.youtube.com/maratonlinuxero
+radio: http://www.radiomaraton.ml
 rss: /feed.xml
 archiveorg: maratonlinuxero
 android: /Maraton-Linuxero_1.3.apk
@@ -30,28 +42,15 @@ android: /Maraton-Linuxero_1.3.apk
 # Podcast Feed Settings
 podcast-url: /
 podcast-album-art: /images/logoMaratonLinuxero.png
-podcast-title: Sesiones del I Maratón Linuxero.
+podcast-title: Sesiones del I Maratón Linuxero
 podcast-owner: Maratón Linuxero
 podcast-category: Technology
 podcast-subcategory-one: Linux
 podcast-explicit: no
 podcast-author: Podcasteros Linuxeros
-podcast-description: Los audios del I Maratón Linuxero.
-podcast-summary: Los audios del I Maratón Linuxero.
-podcast-subtitle: Los audios del I Maratón Linuxero.
-
-# Enter your Isso URL to enable commenting on posts
-isso: 
-
-# Your website URL
-# Used for Sitemap.xml and your RSS feed
-url: /
-
-# If you're hosting your site at a Project repository on GitLab Pages
-# (http://yourusername.gitlab.io/repository-name)
-# and NOT your User repository (http://yourusername.gitlab.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+podcast-description: Los audios del I Maratón Linuxero
+podcast-summary: Los audios del I Maratón Linuxero
+podcast-subtitle: Los audios del I Maratón Linuxero
 
 #
 # !! You don't need to change any of the configuration flags below !!
