@@ -39,16 +39,12 @@ Descárgalos todos [Aquí](https://archive.org/download/WallpaperDistros/Wallpap
 **Promos de audio:** Agradecer a Mathias Tolosa por la edición, la locución y el guión de la primera promo, a Paco Estrada por la locución en las 2 promos y a Ricardo Ocell por el guión en la segunda promo
 
 Promo 1: Estándar
-<audio controls>
-  <source src="/images/PromoMaratonLinuxero1.mp3" type="audio/mpeg">
-</audio>  
+{% include audioPlayer.html link="/images/PromoMaratonLinuxero1.mp3" mime-type="audio/mpeg" %}
 Obra realizada por Mathias Tolosa (CC BY-NC-SA)  
 Música utilizada: ADDICT SOUND - Way to Success (2016) <http://jamen.do/t/1334807>
 
 Promo 2: Épica
-<audio controls>
-  <source src="/images/PromoMaratonLinuxero2.mp3" type="audio/mpeg">
-</audio>  
+{% include audioPlayer.html link="/images/PromoMaratonLinuxero2.mp3" mime-type="audio/mpeg" %}
 Obra realizada por Mathias Tolosa (CC BY-NC-SA)  
 Música utilizada: Ross Bugden - Olympus <https://youtu.be/BnmglWHoVrk> 
 
@@ -61,7 +57,7 @@ Obra realizada por Juan Febles (CC BY-NC-SA)
 <video src="/images/Promo%20Marat%C3%B3n%20Linuxero2.mp4" width="540" height="480" controls preload></video>  
 Obra realizada por Juan Febles (CC BY-NC-SA)
 
-Y Marta García ha elaborado este montaje con software libre: Synfig, PapagayoNG y kdenlive
+Y Marta García ha elaborado este montaje con software libre: Synfig, PapagayoNG y Kdenlive
 
 <video src="/images/Promo%20Marat%C3%B3n%20Linuxero.mp4" width="540" height="480" controls preload></video>  
 Obra realizada por Marta García (CC BY-NC-SA)
