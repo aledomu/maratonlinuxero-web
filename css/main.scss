@@ -23,6 +23,12 @@ body {
   color: $darkGray;
 }
 
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -73,6 +79,7 @@ h6 {
 
 p {
   margin: 15px 0;
+  text-align: justify;
 }
 
 a {

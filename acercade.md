@@ -11,7 +11,7 @@ En un principio barajamos servicios como Mumble o Butt y actualmente estamos uti
 
 {% include youtubePlayer.html id="videoseries?list=PLz7ZCufmrnKJCLvFetPvz2mdiBy4vSmKf" %}
 
-Otro aspecto que queremos resaltar es la **colaboración de empresas linuxeras españolas**. Tanto [PCUbuntu](https://www.pcubuntu.es), [VANT](http://www.vantpc.es) como [SLIMBOOK](https://slimbook.es/) no dudaron en respaldar este proyecto y sumarse a él [ofreciendo productos GNU/Linux para sorteos](/Sorteos) que realizaremos el mismo día y en la última prueba de emisiones (27 de agosto desde las 15:00 horas, UTC+2)
+Otro aspecto que queremos resaltar es la **colaboración de empresas linuxeras españolas**. Tanto [PCUbuntu](https://www.pcubuntu.es), [VANT](http://www.vantpc.es) como [SLIMBOOK](https://slimbook.es/) no dudaron en respaldar este proyecto y sumarse a él [ofreciendo productos GNU/Linux para sorteos](/Sorteos) que realizaremos el mismo día y en la última prueba de emisiones (27 de agosto desde las 15:00 horas, UTC+2).
 
 **La parrilla de directos** propuesta es la siguiente:
 
