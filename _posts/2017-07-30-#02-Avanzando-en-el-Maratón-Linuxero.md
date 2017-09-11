@@ -22,7 +22,7 @@ uGeek explica la posibilidad de usar GitHub Pages para crear tu propio feed de t
 
 Yoyo, DJ Mao Mix y Enderhe hablan de su emisión por Radio Online.
 
-También han habido aportaciones de Ricardo Espinosa, Elav, Marcos Costales, DJ Yoska y otros.
+También ha habido aportaciones de Ricardo Espinosa, Elav, Marcos Costales, DJ Yoska y otros.
 
 Poco a poco vamos creando la parrilla de directos con muchos podcasters que se han sumado al proyecto. Si aún no lo has hecho, ponte en contacto con nosotros cuanto antes.
 
