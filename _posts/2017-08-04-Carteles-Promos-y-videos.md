@@ -58,15 +58,15 @@ Vídeos
 ------
 A partir de los audios y los carteles hemos realizado unos sencillos vídeos con [esta webapp de código abierto](https://audiogram.sparemin.com/audiogram/)
 
-{% videoPlayer.html video="/images/Promo%20Marat%C3%B3n%20Linuxero1" %}
+{% include videoPlayer.html video="/images/Promo%20Marat%C3%B3n%20Linuxero1" %}
 Obra realizada por Juan Febles (CC BY-NC-SA)
 
-{% videoPlayer.html video="/images/Promo%20Marat%C3%B3n%20Linuxero2" %}
+{% include videoPlayer.html video="/images/Promo%20Marat%C3%B3n%20Linuxero2" %}
 Obra realizada por Juan Febles (CC BY-NC-SA)
 
 Y Marta García ha elaborado este montaje con software libre: Synfig, PapagayoNG y Kdenlive.
 
-{% videoPlayer.html video="/images/Promo%20Marat%C3%B3n%20Linuxero" %}
+{% include videoPlayer.html video="/images/Promo%20Marat%C3%B3n%20Linuxero" %}
 Obra realizada por Marta García (CC BY-NC-SA)
 
 Puedes utilizar todas estas obras para difundir el Maratón Linuxero respetando su licencia (Creative Commons, Reconocimiento-NoComercial-CompartirIgual: CC BY-NC-SA).
