@@ -3,7 +3,6 @@ layout: post
 title: "#01 Qué es y cómo anda el Maratón Linuxero"
 date: 2017-07-16
 categories: Podcast
-image: /images/logoMaratonLinuxero.png
 youtube-id: xx87M-JDwVs
 podcast:
   audio: https://archive.org/download/01QuEsYCCmoAndaElMaratanLinuxero/#01%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero
