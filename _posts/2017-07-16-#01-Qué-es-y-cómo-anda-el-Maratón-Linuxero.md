@@ -5,7 +5,8 @@ date: 2017-07-16
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
 youtube-id: xx87M-JDwVs
-podcast-link: https://ia601503.us.archive.org/8/items/01QuEsYCCmoAndaElMaratanLinuxero/%2301%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero
+podcast:
+  audio: https://ia601503.us.archive.org/8/items/01QuEsYCCmoAndaElMaratanLinuxero/%2301%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
 comments: true
 ---
@@ -27,6 +28,6 @@ Aquí tienes la emisión en YouTube:
 
 Y aquí el audio extraído:
 
-{% include audioPlayer.html extension="mp3" mime-type="audio/mpeg" %}
+{% include audioPlayer.html %}
 
 Recuerda que puedes **contactar** de las siguientes formas:

@@ -8,7 +8,6 @@ El feed está creado desde GitLab:
 
 <a href="{{ site.rss }}">Podcast Feed</a>
 
-
   <div class="posts">
   {% for post in site.categories.Podcast %}
     <article class="post">

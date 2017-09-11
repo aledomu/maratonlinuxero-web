@@ -1,0 +1,5 @@
+<video width="{% if include.width %}{{ include.width }}{% else %}{{ site.video.width }}{% endif %}" height="{% if include.height %}{{ include.height }}{% else %}{{ site.video.height }}{% endif %}" controls>
+	<source src="{% if include.video %}{{ include.video }}{% else %}{{ page.podcast.video }}{% endif %}.webm" type="video/webm">
+	<source src="{% if include.video %}{{ include.video }}{% else %}{{ page.podcast.video }}{% endif %}.ogv" type="video/ogg">
+	<source src="{% if include.video %}{{ include.video }}{% else %}{{ page.podcast.video }}{% endif %}.mp4" type="video/mp4">
+</video>

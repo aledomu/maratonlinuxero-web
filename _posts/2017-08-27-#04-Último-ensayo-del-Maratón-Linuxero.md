@@ -5,7 +5,8 @@ date: 2017-08-27
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
 youtube-id: mHjgFF0aX3Y
-podcast-link: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo
+podcast:
+  audio: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo
 tags: [audio, podcast, pruebas]
 comments: true
 ---
@@ -41,8 +42,8 @@ Aquí tienes la emisión en YouTube:
 
 Y aquí el audio extraído:
 
-{% include audioPlayer.html extension="mp3" mime-type="audio/mpeg" %}
+{% include audioPlayer.html %}
 
-Recuerda que sólo queda 1 semana para el gran evento.
+Recuerda que solo queda 1 semana para el gran evento.
 
 Si quieres **contactar** con nosotros, puedes hacerlo de las siguientes formas:

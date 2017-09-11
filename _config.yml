@@ -38,7 +38,7 @@ mastodon: https://mastodon.social/@maratonlinuxero
 mastodon_ref: maratonlinuxero@mastodon.social
 twitter: maratonlinuxero
 facebook:
-email: maratonlinuxero@gmail.com
+email: maratonlinuxero@disroot.org
 youtube: https://www.youtube.com/maratonlinuxero
 radio: http://www.radiomaraton.ml
 rss: /feed.xml
@@ -48,15 +48,15 @@ android: /Maraton-Linuxero_1.3.apk
 # Podcast Feed Settings
 podcast-url: /
 podcast-album-art: /images/logoMaratonLinuxero.png
-podcast-title: Sesiones del I Maratón Linuxero
+podcast-title: Sesiones del Maratón Linuxero
 podcast-owner: Maratón Linuxero
 podcast-category: Technology
 podcast-subcategory-one: Linux
 podcast-explicit: no
 podcast-author: Podcasteros Linuxeros
-podcast-description: Los audios del I Maratón Linuxero
-podcast-summary: Los audios del I Maratón Linuxero
-podcast-subtitle: Los audios del I Maratón Linuxero
+podcast-description: Los audios del Maratón Linuxero
+podcast-summary: Los audios del Maratón Linuxero
+podcast-subtitle: Los audios del Maratón Linuxero
 
 #
 # !! You don't need to change any of the configuration flags below !!

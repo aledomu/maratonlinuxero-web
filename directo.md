@@ -11,11 +11,11 @@ Hemos decidido utilizar YouTube para emitir en directo por su facilidad, el pode
 
 Si esta opción no es de tu agrado, puedes utilizar nuestra radio oficial que emite en formato OGG Vorbis mediante Icecast: [Radio Maratón](http://radiomaraton.ml)
 
-{% include audioPlayer.html link="http://200.24.229.253:8000/maratonlinuxero.ogg" mime-type="audio/ogg" %}
+{% include audioPlayer.html audio="http://200.24.229.253:8000/maratonlinuxero" %}
 
 Si utilizas dispositivos iOS, utiliza el siguiente reproductor con formato MP3:
 
-{% include audioPlayer.html link="http://200.24.229.253:8888/;?type=http" mime-type="audio/mpeg" %}
+{% include audioPlayer.html audio="http://200.24.229.253:8888/;?type=http" %}
 
 Dan Bernal Tapia ha creado una app de Radio Maratón para Android: [Descarga](/maraton-linuxero_1.3.apk)
 

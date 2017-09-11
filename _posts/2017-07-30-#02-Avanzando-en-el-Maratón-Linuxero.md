@@ -5,7 +5,8 @@ date: 2017-07-30
 categories: Podcast
 image: /images/logoMaratonLinuxero.png
 youtube-id: dtyrImIRius
-podcast-link: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero
+podcast:
+  audio: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
 comments: true
 ---
@@ -35,7 +36,6 @@ Aquí tienes la emisión en YouTube:
 
 Y aquí el audio extraído:
 
-{% include audioPlayer.html extension="mp3" mime-type="audio/mpeg" %}
-
+{% include audioPlayer.html %}
 
 Recuerda que puedes **contactar** de las siguientes formas:
