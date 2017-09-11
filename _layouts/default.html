@@ -60,7 +60,7 @@
           <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
           <p class="site-description">{{ site.description }}</p>
 
-          {% if site.countdown.activo %}
+	  {% if site.countdown %}
             <div id="countdown" style="margin-top:5px;"></div>
           {% endif %}
         </div>
@@ -94,6 +94,6 @@
 
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
-  {% include countdown.html %}
+  {% include countdown-code.html %}
 </body>
 </html>

@@ -35,7 +35,7 @@ countdown:
   formato: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
   fecha-hora:
     inicio: 2017-09-03 15:00
-    fin: 2017-09-04 24:00
+    fin: 2017-09-04 00:00
   mensaje:
     inicio: Maratón Linuxero I ya ha comenzado. ¡Únete a la fiesta!
     fin: Maratón Linuxero I ya ha terminado. ¡Gracias por la participación!
