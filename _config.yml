@@ -29,12 +29,16 @@ piwik:
   url: 
   site-id: 
 
-# Activar la cuenta atrás asignando el valor true a activo, desactivarla asignando el valor false
+# La cuenta atrás solo se activará si se escriben todos los valores
+# fecha-hora está en horario español peninsular (UTC+2)
 countdown:
-  activo: true
   formato: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
-  fecha_y_hora: 2017-09-03 15:00
-  mensaje: Maratón Linuxero ya ha comenzado. ¡Únete a la fiesta!
+  fecha-hora:
+    inicio: 2017-09-03 15:00
+    fin: 2017-09-04 24:00
+  mensaje:
+    inicio: Maratón Linuxero I ya ha comenzado. ¡Únete a la fiesta!
+    fin: Maratón Linuxero I ya ha terminado. ¡Gracias por la participación!
 
 # Video width and height
 video:
