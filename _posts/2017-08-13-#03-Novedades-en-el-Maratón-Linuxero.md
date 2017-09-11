@@ -8,7 +8,6 @@ youtube-id: xGhf-OQftyY
 podcast:
   audio: https://ia601508.us.archive.org/27/items/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
-comments: true
 ---
 En esta 4ª entrega de los previos al Maratón Linuxero hemos querido realizar 3 horas de emisión para seguir avanzando en los ensayos. Como en el anterior episodio fuimos muchos los contertulios a la vez, unos 15, decidimos realizar varios directos divididos por temáticas y colaboradores, sin intentar pasarnos de más de 6.
 

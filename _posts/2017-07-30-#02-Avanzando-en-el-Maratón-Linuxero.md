@@ -8,7 +8,6 @@ youtube-id: dtyrImIRius
 podcast:
   audio: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]
-comments: true
 ---
 3ª prueba del Maratón Linuxero donde reunimos hasta 15 colaboradores y podcasters en la sala Jitsi para comentar los avances en estas últimas 2 semanas y probar la emisión en YouTube y varias radios online.
 

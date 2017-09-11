@@ -13,5 +13,7 @@ layout: default
     Escrito el {{ page.date | date: "%d/%m/%Y" }}
   </div>
 
+  {% unless page.comments == false %}
   {% include isso.html %}
+  {% endunless %}
 </article>
