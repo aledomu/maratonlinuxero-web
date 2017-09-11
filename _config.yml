@@ -24,6 +24,11 @@ url: /
 # Enter your Isso URL to enable commenting on posts
 isso: 
 
+# Enter url and site-id to track visits
+piwik:
+  url: 
+  site-id: 
+
 # Activar la cuenta atrás asignando el valor true a activo, desactivarla asignando el valor false
 countdown:
   activo: true
