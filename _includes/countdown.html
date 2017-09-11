@@ -3,15 +3,15 @@
 
 <script type="text/javascript">
   var balance = (new Date()).getTimezoneOffset()/60;
-  var fecha_y_hora = moment("{{ countdown.fecha_y_hora }}").add(-2 - balance, 'hours').toDate();
+  var fecha_y_hora = moment("{{ site.countdown.fecha_y_hora }}").add(-2 - balance, 'hours').toDate();
 
   $('#countdown').countdown(fecha_y_hora, { elapse: true })
     .on('update.countdown', function(event){
       if (!event.elapsed){
-        $(this).html(event.strftime('{{ countdown.formato }}'));
+        $(this).html(event.strftime('{{ site.countdown.formato }}'));
       }
       else {
-        $(this).html('{{ countdown.mensaje }}');
+        $(this).html('{{ site.countdown.mensaje }}');
       }
     });
 </script>

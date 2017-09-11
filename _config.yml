@@ -24,6 +24,13 @@ url: /
 # Enter your Isso URL to enable commenting on posts
 isso: 
 
+# Activar la cuenta atrás asignando el valor true a activo, desactivarla asignando el valor false
+countdown:
+  activo: true
+  formato: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
+  fecha_y_hora: 2017-09-03 15:00
+  mensaje: Maratón Linuxero ya ha comenzado. ¡Únete a la fiesta!
+
 # Video width and height
 video:
   width: 560
