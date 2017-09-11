@@ -9,27 +9,27 @@ podcast-link: https://ia601501.us.archive.org/13/items/02AvanzandoEnElMaratnLinu
 tags: [audio, podcast, pruebas]
 comments: true
 ---
-Tercer ensayo del Maratón linuxero donde reunimos hasta 15 colaboradores y podcasters en la sala Jitsi para comentar los avances en estas últimas 2 semanas y probar la emisión en Youtube y varias radios online.
+3ª prueba del Maratón Linuxero donde reunimos hasta 15 colaboradores y podcasters en la sala Jitsi para comentar los avances en estas últimas 2 semanas y probar la emisión en YouTube y varias radios online.
 
-Comentamos la instalación del servicio Jitsi en un propio servidor gracias a NeoRanger. 
+Comentamos la instalación del servicio Jitsi en un servidor propio gracias a NeoRanger. 
 
 Eduardo Collado nos informa de su experiencia con Jitsi y cómo quiere realizar su directo el domingo 3 de septiembre.
 
-Neoranger y Paco Estrada informa del proceso de instalación en este servidor. 
+NeoRanger y Paco Estrada informan del proceso de instalación en este servidor. 
 
-Ugeek explica la posibilidad de usar Github Pages para crear tu propio feed de tu podcast.
+uGeek explica la posibilidad de usar GitHub Pages para crear tu propio feed de tu podcast.
 
-Yoyo, Dj Mao Mix y Enderhe hablan de su emisión por Radio Online.
+Yoyo, DJ Mao Mix y Enderhe hablan de su emisión por Radio Online.
 
-Aportaciones de Richie, Elav, Marcos Costales, Dj Yoska y otros.
+También han habido aportaciones de Ricardo Espinosa, Elav, Marcos Costales, DJ Yoska y otros.
 
 Poco a poco vamos creando la parrilla de directos con muchos podcasters que se han sumado al proyecto. Si aún no lo has hecho, ponte en contacto con nosotros cuanto antes.
 
 Varios podcasters que estarán en el evento comentan posibles temas a tratar el domingo 3 de septiembre.
 
-Diseñadores y artistas también se están sumando al evento con carteles y promos. Y empresas afines al Software libre quieren colaborar con accesorios, camisetas y pegatinas.Recuerda que tú también puedes unirte. Ponte en contacto con nosotros a través de Telegram: <https://t.me/maratonlinuxero>
+Diseñadores y artistas también se están sumando al evento con carteles y promos. Y empresas afines al Software Libre quieren colaborar con accesorios, camisetas y pegatinas. Recuerda que tú también puedes unirte. Ponte en contacto con nosotros a través de Telegram: [@{{ site.telegram.group }}](https://telegram.me/{{ site.telegram.group }})
 
-Aquí tienes la emisión en Youtube: 
+Aquí tienes la emisión en YouTube: 
 
 {% include youtubePlayer.html %}
 
@@ -39,4 +39,3 @@ Y aquí el audio extraído:
 
 
 Recuerda que puedes **contactar** de las siguientes formas:
-

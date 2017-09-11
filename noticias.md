@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Noticias
-permalink: /noticias/
 ---
-En forma de blog añadiremos las noticias que vayan surgiendo previas a la Maratón.
+En forma de blog añadiremos las noticias que vayan surgiendo previas al Maratón.
 
 <div class="posts">
   {% for post in site.posts %}

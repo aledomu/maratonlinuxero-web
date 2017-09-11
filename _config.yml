@@ -24,10 +24,16 @@ url: /
 # Enter your Isso URL to enable commenting on posts
 isso: 
 
+# Video width and height
+video:
+  width: 560
+  height: 315
 
 # Metadata and links
 gitlab: maratonlinuxero
-telegram: maratonlinuxero
+telegram:
+  group: maratonlinuxero
+  channel: maraton_linuxero
 mastodon: https://mastodon.social/@maratonlinuxero
 mastodon_ref: maratonlinuxero@mastodon.social
 twitter: maratonlinuxero
