@@ -6,7 +6,7 @@ categories: Podcast
 image: /images/logoMaratonLinuxero.png
 youtube-id: mHjgFF0aX3Y
 podcast:
-  audio: https://ia601501.us.archive.org/16/items/04UltimoEnsayo/%2304UltimoEnsayo
+  audio: https://archive.org/download/04UltimoEnsayo/%2304UltimoEnsayo
 tags: [audio, podcast, pruebas]
 ---
 El 27 de agosto hemos tenido nuestra última prueba antes del evento. Los directos se realizaron por temáticas de una hora al igual que el Maratón Linuxero del 3 de septiembre. Tuvimos varias incidencias de emisión en los primeros minutos, pero en general fue bastante bien.
