@@ -10,7 +10,7 @@ tags: [audio, podcast, pruebas]
 ---
 En esta 4ª entrega de los previos al Maratón Linuxero hemos querido realizar 3 horas de emisión para seguir avanzando en los ensayos. Como en el anterior episodio fuimos muchos los contertulios a la vez, unos 15, decidimos realizar varios directos divididos por temáticas y colaboradores, sin intentar pasarnos de más de 6.
 
-En la primera hora se habló de las novedades del Maratón Linuxero: Parrilla y podcasters hasta la fecha, con la gran noticia de sorteos por parte de PCUbuntu, Vant y Slimbook, empresas colaboradoras en el evento con la aportación de productos. Estuvieron en esa primera hora Eduardo Collado, Yoyo Fernández y Juan Febles.
+En la primera hora se habló de las novedades del Maratón Linuxero: Parrilla y podcasters hasta la fecha, con la gran noticia de sorteos por parte de PCUbuntu, VANT y SLIMBOOK, empresas colaboradoras en el evento con la aportación de productos. Estuvieron en esa primera hora Eduardo Collado, Yoyo Fernández y Juan Febles.
 
 En la segunda sesión se compartió las experiencias con distribuciones GNU/Linux, explicando cómo son y las ventajas para unos u otros propósitos. Estuvieron Baltolkien y Razlobo de KDE España junto con Ricardo Espinosa, NeoRanger, Enderhe y David OchoBits.
 
