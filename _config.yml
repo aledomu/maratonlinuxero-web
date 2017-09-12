@@ -50,8 +50,9 @@ gitlab: maratonlinuxero
 telegram:
   group: maratonlinuxero
   channel: maraton_linuxero
-mastodon: https://mastodon.social/@maratonlinuxero
-mastodon_ref: maratonlinuxero@mastodon.social
+mastodon:
+  name: maratonlinuxero@mastodon.social
+  link: https://mastodon.social/@maratonlinuxero
 twitter: maratonlinuxero
 facebook:
 email: maratonlinuxero@disroot.org
