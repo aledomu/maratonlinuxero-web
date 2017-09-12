@@ -64,12 +64,12 @@ android: /Maraton-Linuxero_1.3.apk
 
 # Podcast Feed Settings
 podcast:
-  podcast.category:
-    podcast.category.main: Technology
-    podcast.category.sub1: Linux
-  podcast.explicit: no
-  podcast.summary: Sesiones del Maratón Linuxero
-  podcast.subtitle: Los audios del Maratón Linuxero
+  category:
+    main: Technology
+    sub1: Linux
+  explicit: no
+  summary: Sesiones del Maratón Linuxero
+  subtitle: Los audios del Maratón Linuxero
 
 #
 # You don't need to change any of the configuration flags below
