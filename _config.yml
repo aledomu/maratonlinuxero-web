@@ -62,7 +62,7 @@ rss: /feed.xml
 archiveorg: maratonlinuxero
 android: /Maraton-Linuxero_1.3.apk
 
-# Podcast Feed Settings
+# Podcast feed settings
 podcast:
   category:
     main: Technology

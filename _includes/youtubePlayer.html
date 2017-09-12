@@ -1,1 +1,3 @@
-<iframe width="{% if include.width %}{{ include.width }}{% else %}{{ site.video.width }}{% endif %}" height="{% if include.height %}{{ include.height }}{% else %}{{ site.video.height }}{% endif %}" src="https://www.youtube.com/embed/{% if include.id %}{{ include.id }}{% else %}{{ page.youtube-id }}{% endif %}" frameborder="0" allowfullscreen></iframe>
+{% assign include.size.width == include.width %}
+{% assign include.size.height == include.height %}
+<iframe width="{% if include.size %}{{ include.width }}{% else %}{{ site.video.width }}{% endif %}" height="{% if include.size %}{{ include.height }}{% else %}{{ site.video.height }}{% endif %}" src="https://www.youtube.com/embed/{% if include.id %}{{ include.id }}{% else %}{{ page.youtube-id }}{% endif %}" frameborder="0" allowfullscreen></iframe>
