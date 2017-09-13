@@ -59,7 +59,7 @@ email: maratonlinuxero@disroot.org
 youtube: https://www.youtube.com/maratonlinuxero
 radio: http://www.radiomaraton.ml
 feed:
-  path: /feed.xml
+  path: /feed
   category:
     main: Technology
     sub1: Linux
