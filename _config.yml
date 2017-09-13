@@ -38,7 +38,7 @@ countdown:
     fin: 2017-09-04 00:00
   mensaje:
     inicio: Maratón Linuxero I ya ha comenzado. ¡Únete a la fiesta!
-    fin: Maratón Linuxero I ya ha terminado. ¡Gracias por la participación!
+    fin: Maratón Linuxero I ya ha terminado. ¡Gracias por participar!
 
 # Video width and height
 video:
@@ -58,18 +58,16 @@ facebook:
 email: maratonlinuxero@disroot.org
 youtube: https://www.youtube.com/maratonlinuxero
 radio: http://www.radiomaraton.ml
-rss: /feed.xml
-archiveorg: maratonlinuxero
-android: /Maraton-Linuxero_1.3.apk
-
-# Podcast feed settings
-podcast:
+feed:
+  path: /feed.xml
   category:
     main: Technology
     sub1: Linux
   explicit: no
   summary: Sesiones del Maratón Linuxero
   subtitle: Los audios del Maratón Linuxero
+archiveorg: maratonlinuxero
+android: /Maraton-Linuxero_1.3.apk
 
 #
 # You don't need to change any of the configuration flags below

@@ -22,23 +22,23 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <generator>http://jekyllrb.com</generator>
-<itunes:summary>{{ site.podcast.summary }}</itunes:summary>
+<itunes:summary>{{ site.feed.summary }}</itunes:summary>
 <itunes:author>{{ site.name }}</itunes:author>
-<itunes:explicit>"{{ site.podcast.explicit }}"</itunes:explicit>
+<itunes:explicit>"{{ site.feed.explicit }}"</itunes:explicit>
 <itunes:image href="{{ site.url }}{{ site.avatar }}" />
 <itunes:owner>
 <itunes:name>{{ site.name }}</itunes:name>
 <itunes:email>{{ site.email }}</itunes:email>
 </itunes:owner>
 <managingEditor>{{ site.email }} ({{ site.name }})</managingEditor>
-<itunes:subtitle>{{ site.podcast.subtitle }}</itunes:subtitle>
+<itunes:subtitle>{{ site.feed.subtitle }}</itunes:subtitle>
 <image>
 <title>{{ site.name }}</title>
 <url>{{ site.url }}{{ site.avatar }}</url>
 <link>{{ site.url }}</link>
 </image>
-<itunes:category text="{{ site.podcast.category.main }}">
-<itunes:category text="{{ site.podcast.category.sub1 }}" />
+<itunes:category text="{{ site.feed.category.main }}">
+<itunes:category text="{{ site.feed.category.sub1 }}" />
 </itunes:category>
 {% for ep in site.category.Podcast %}
   <item>
@@ -64,7 +64,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <itunes:summary><![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
     <itunes:author>{{ site.name }}</itunes:author>
     <itunes:image href="{{ site.url }}{{ site.avatar }}" />
-    <itunes:explicit>{{ site.podcast.explicit }}</itunes:explicit>
+    <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
     <itunes:duration>{{ ep.podcast.duration }}</itunes:duration>
   </item>
 {% endfor %}
