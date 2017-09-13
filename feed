@@ -40,7 +40,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:category text="{{ site.feed.category.main }}">
 <itunes:category text="{{ site.feed.category.sub1 }}" />
 </itunes:category>
-{% for ep in site.category.Podcast %}
+{% for ep in site.categories.Podcast %}
   <item>
     <title>{{ ep.title }}</title>
     <link>{{ site.url }}{{ ep.url }}</link>

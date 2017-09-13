@@ -32,13 +32,13 @@ piwik:
 # La cuenta atrás solo se activará si se escriben todos los valores
 # fecha-hora está en horario español peninsular (UTC+2)
 countdown:
-  formato: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
-  fecha-hora:
-    inicio: 2017-09-03 15:00
-    fin: 2017-09-04 00:00
-  mensaje:
-    inicio: Maratón Linuxero I ya ha comenzado. ¡Únete a la fiesta!
-    fin: Maratón Linuxero I ya ha terminado. ¡Gracias por participar!
+  format: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
+  date:
+    start: 2017-09-03 15:00
+    end: 2017-09-04 00:00
+  msg:
+    start: Maratón Linuxero I ya ha comenzado. ¡Únete a la fiesta!
+    end: Maratón Linuxero I ya ha terminado. ¡Gracias por participar!
 
 # Video width and height
 video:
@@ -52,7 +52,7 @@ telegram:
   channel: maraton_linuxero
 mastodon:
   name: maratonlinuxero@mastodon.social
-  link: https://mastodon.social/@maratonlinuxero
+  url: https://mastodon.social/@maratonlinuxero
 twitter: maratonlinuxero
 facebook:
 email: maratonlinuxero@disroot.org

@@ -1,18 +1,19 @@
-{% if site.countdown %}
+{% assign ctd == site.countdown %}
+{% if ctd.format and ctd.date.start and ctd.date.end and ctd.msg.start and ctd.msg.end %}
 <script src="/js/jquery.countdown-2.1.0/jquery.countdown.min.js" type="text/javascript"></script>
 <script src="/js/moment.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
   var balance = (new Date()).getTimezoneOffset()/60;
-  var fecha_y_hora = moment("{{ site.countdown.fecha-hora.inicio }}").add(-2 - balance, 'hours').toDate();
+  var fecha_y_hora = moment("{{ ctd.date.start }}").add(-2 - balance, 'hours').toDate();
 
   $('#countdown').countdown(fecha_y_hora, { elapse: true })
     .on('update.countdown', function(event){
       if (!event.elapsed){
-        $(this).html(event.strftime('{{ site.countdown.formato }}'));
+        $(this).html(event.strftime('{{ ctd.format }}'));
       }
       else {
-        $(this).html('{{ site.countdown.mensaje.inicio }}');
+        $(this).html('{{ ctd.msg.start }}');
       }
     });
 </script>
