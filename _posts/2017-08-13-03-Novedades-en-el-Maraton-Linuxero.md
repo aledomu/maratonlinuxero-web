@@ -3,7 +3,8 @@ layout: post
 title: "#03 Novedades en el Maratón Linuxero"
 date: 2017-08-13
 categories: Podcast
-youtube-id: xGhf-OQftyY
+youtube:
+  id: xGhf-OQftyY
 podcast:
   audio: https://archive.org/download/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]

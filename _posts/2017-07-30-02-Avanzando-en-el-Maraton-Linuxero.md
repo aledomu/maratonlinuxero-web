@@ -3,7 +3,8 @@ layout: post
 title: "#02 Avanzando en el Maratón Linuxero"
 date: 2017-07-30
 categories: Podcast
-youtube-id: dtyrImIRius
+youtube:
+  id: dtyrImIRius
 podcast:
   audio: https://archive.org/download/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero
 tags: [audio, podcast, pruebas]

@@ -3,7 +3,8 @@ layout: post
 title: "#04 Último ensayo del Maratón Linuxero"
 date: 2017-08-27
 categories: Podcast
-youtube-id: mHjgFF0aX3Y
+youtube:
+  id: mHjgFF0aX3Y
 podcast:
   audio: https://archive.org/download/04UltimoEnsayo/%2304UltimoEnsayo
 tags: [audio, podcast, pruebas]
