@@ -67,7 +67,7 @@ feed:
   summary: Sesiones del Maratón Linuxero
   subtitle: Los audios del Maratón Linuxero
 archiveorg: maratonlinuxero
-android: /Maraton-Linuxero_1.3.apk
+android: /MaratonLinuxero-1.3.apk
 
 #
 # You don't need to change any of the configuration flags below

@@ -2,25 +2,53 @@
 layout: page
 title: Maratón Linuxero en vivo
 ---
-Aquí tienes el vídeo en bruto, los 9 directos:
+<div align="center">
+<video id="media" width="100%" controls autoplay="true" poster="/media/poster-directo.png">
+	<source src="http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.ogg" type="audio/ogg" />
+	<source src="http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.mp3" type="audio/mp3" />
+No HTML 5 support
+</video>
 
-{% include youtubePlayer.html id="Yv90j2HVg1Q" %}
+<br />
 
-Hemos decidido utilizar YouTube para emitir en directo por su facilidad, el poder llegar a muchos linuxeros que ya tienen cuenta y por el chat en vivo que facilita mucho el feedback:
-<{{ site.youtube }}/live>
+Calidad de transmisión:
+<input type="radio" name="quality" value="hd" checked onclick="reload_hd()" />HD
+<input type="radio" name="quality" value="sd" onclick="reload_sd()" />SD
 
-Si esta opción no es de tu agrado, puedes utilizar nuestra radio oficial que emite en formato OGG Vorbis mediante Icecast: [Radio Maratón](http://radiomaraton.ml)
+<br />
+<br />
 
-{% include audioPlayer.html audio="http://200.24.229.253:8000/maratonlinuxero" %}
+<input value="Recargar chat" type="button" onclick="reload_chat();">
+<iframe id="chat" src="http://kiwiirc.com/client/irc.freenet.net:6667/#maratonlinuxero" style="border:0; width:100%; height:500px;"></iframe>
+</div>
 
-Si utilizas dispositivos iOS, utiliza el siguiente reproductor con formato MP3:
+<script>
+	function reload_hd() {
+		switch(media.currentSrc) {
+			case "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiosd.ogg":
+				document.getElementById("media").src = "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.ogg";
+				break;
 
-{% include audioPlayer.html audio="http://200.24.229.253:8888/;?type=http" %}
+			case "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiosd.mp3":
+				document.getElementById("media").src = "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.mp3";
+				break;
+		}
+	}
 
-Dan Bernal Tapia ha creado una app de Radio Maratón para Android: [Descarga](/maraton-linuxero_1.3.apk)
+	function reload_sd() {
+		switch(media.currentSrc) {
+			case "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.ogg":
+				document.getElementById("media").src = "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiosd.ogg";
+				break;
 
-Para no perderte ninguna de las pruebas y el directo del 3 de septiembre, lo mejor es suscribirte a nuestro canal: <{{ site.youtube }}>
+			case "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.mp3":
+				document.getElementById("media").src = "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiosd.mp3";
+				break;
 
-Aquí tienes la lista de reproducción de los previos:
+		}
+	}
 
-{% include youtubePlayer.html id="videoseries?list=PLz7ZCufmrnKJCLvFetPvz2mdiBy4vSmKf" %}
+	function reload_chat() {
+		document.getElementById("chat").src += "";
+	}
+</script>
