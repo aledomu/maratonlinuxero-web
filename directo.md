@@ -18,7 +18,7 @@ Calidad de transmisión:
 <br />
 
 <input value="Recargar chat" type="button" onclick="reload_chat();">
-<iframe id="chat" src="https://kiwiirc.com/client/irc.freenet.net:6667/#maratonlinuxero" style="border:0; width:100%; height:500px;"></iframe>
+<iframe id="chat" src="https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero" style="border:0; width:100%; height:500px;"></iframe>
 </div>
 
 <script>
