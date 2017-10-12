@@ -7,17 +7,16 @@ title: Maratón Linuxero en vivo
 	<source src="http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.ogg" type="audio/ogg" />
 	<source src="http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.mp3" type="audio/mp3" />
 </video>
+  
+<b><i>Calidad de transmisión</i></b>
+<br />
+<button id="button-hd" name="quality" onclick="reload_hd()" style="font-size:32px;"><b>HD</b></button>
+<button id="button-sd" name="quality" onclick="reload_sd()" style="font-size:32px;">SD</button>
 
 <br />
-
-Calidad de transmisión:
-<input type="radio" name="quality" value="hd" checked onclick="reload_hd()" />HD
-<input type="radio" name="quality" value="sd" onclick="reload_sd()" />SD
-
-<br />
 <br />
 
-<input value="Recargar chat" type="button" onclick="reload_chat();">
+<button onclick="reload_chat()" style="font-size:24px;">Recargar chat</button>
 <iframe id="chat" src="https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero" style="border:0; width:100%; height:500px;"></iframe>
 </div>
 
@@ -32,6 +31,9 @@ Calidad de transmisión:
 				document.getElementById("media").src = "http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.mp3";
 				break;
 		}
+		
+		document.getElementById("button-hd").innerHTML = "<b>HD</b>";
+		document.getElementById("button-sd").innerHTML = "SD";
 	}
 
 	function reload_sd() {
@@ -45,6 +47,9 @@ Calidad de transmisión:
 				break;
 
 		}
+
+		document.getElementById("button-hd").innerHTML = "HD";
+		document.getElementById("button-sd").innerHTML = "<b>SD</b>";
 	}
 
 	function reload_chat() {
