@@ -6,7 +6,6 @@ title: Maratón Linuxero en vivo
 <video id="media" width="100%" controls autoplay="true" poster="/media/poster-directo.png">
 	<source src="http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.ogg" type="audio/ogg" />
 	<source src="http://emision.maratonlinuxero.org/redirect.php?m=emision_audiohd.mp3" type="audio/mp3" />
-No HTML 5 support
 </video>
 
 <br />
@@ -19,7 +18,7 @@ Calidad de transmisión:
 <br />
 
 <input value="Recargar chat" type="button" onclick="reload_chat();">
-<iframe id="chat" src="http://kiwiirc.com/client/irc.freenet.net:6667/#maratonlinuxero" style="border:0; width:100%; height:500px;"></iframe>
+<iframe id="chat" src="https://kiwiirc.com/client/irc.freenet.net:6667/#maratonlinuxero" style="border:0; width:100%; height:500px;"></iframe>
 </div>
 
 <script>
