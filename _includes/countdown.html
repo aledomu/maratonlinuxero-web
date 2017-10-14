@@ -2,7 +2,6 @@
 <script src="/js/moment.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-    alert('{{ ctd.date.start }}')
   var balance = (new Date()).getTimezoneOffset()/60;
   var fecha_y_hora = moment("{{ ctd.date.start }}").add(-2 - balance, 'hours').toDate();
 
