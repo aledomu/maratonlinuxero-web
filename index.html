@@ -1,13 +1,96 @@
 ---
 layout: default
 ---
-<img class="center-block" src="/media/Cartel.png" alt="#MaratonLinuxero">
+<div style="font-size:20px; text-align:center;">
+<video id="media" style="width:100%;" controls poster="/media/poster-directo.png" onplay="autoplay = true;" onpause="autoplay = false;">
+  <source src="https://emision.maratonlinuxero.org/redirect.php?m=audio-hd.ogg" type="audio/ogg" />
+  <source src="https://emision.maratonlinuxero.org/redirect.php?m=audio-hd.mp3" type="audio/mp3" />
+</video>
+  
+Calidad de transmisión
+<br />
+<button id="button-hd" name="quality" onclick="reload_hd()" style="font-size:32px;"><b>HD</b></button>
+<button id="button-sd" name="quality" onclick="reload_sd()" style="font-size:32px;">SD</button><br />
+
+<br />
+
+<div style="text-align:left;">
+Si quieres escuchar el directo en tu reproductor favorito, las URL son:
+<ul>
+<li>Para calidad HD:
+<ul>
+  <li>En OGG Vorbis: <a href="{{ site.stream-base-url }}audio-hd.ogg">{{ site.stream-base-url }}audio-hd.ogg</a></li>
+  <li>En MP3: <a href="{{ site.stream-base-url }}audio-hd.mp3">{{ site.stream-base-url }}audio-hd.mp3</a></li>
+</ul>
+</li>
+<li>Para calidad SD:
+<ul>
+  <li>En OGG Vorbis: <a href="{{ site.stream-base-url }}audio-sd.ogg">{{ site.stream-base-url }}audio-sd.ogg</a></li>
+  <li>En MP3: <a href="{{ site.stream-base-url }}audio-sd.mp3">{{ site.stream-base-url }}audio-sd.mp3</a></li>
+</ul>
+</li>
+</ul>
+
+<br />
+
+<a href="https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero" target="_blank">Haz click aquí para abrir el chat</a> o conéctate con cualquier cliente IRC con los siguientes ajustes:
+<ul>
+  <li><i>Servidor: <b>irc.freenode.net</b></i></li>
+  <li><i>Puerto: <b>6667</b></i></li>
+  <li><i>Canal: <b>#maratonlinuxero</b></i></li>
+</ul>
+</div>
+
+<script>
+  var media = document.getElementById("media");
+  var stream_base_url = "{{ site.stream-base-url }}";
+  
+  function reload_hd() {
+    switch(media.currentSrc) {
+      case stream_base_url + "audio-sd.ogg":
+        media.src = stream_base_url + "audio-hd.ogg";
+        break;
+
+      case stream_base_url + "audio-sd.mp3":
+        media.src = stream_base_url + "audio-hd.mp3";
+        break;
+    }
+
+    document.getElementById("button-hd").innerHTML = "<b>HD</b>";
+    document.getElementById("button-sd").innerHTML = "SD";
+  }
+
+  function reload_sd() {
+    switch(media.currentSrc) {
+      case stream_base_url + "audio-hd.ogg":
+        media.src = stream_base_url + "audio-sd.ogg";
+        break;
+
+      case stream_base_url + "audio-hd.mp3":
+        media.src = stream_base_url + "audio-sd.mp3";
+        break;
+
+    }
+
+    document.getElementById("button-hd").innerHTML = "HD";
+    document.getElementById("button-sd").innerHTML = "<b>SD</b>";
+  }
+
+  function reload_chat() {
+    document.getElementById("chat").src += "";
+  }
+</script>
+</div>
+
+<br />
+<br />
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <h5><div class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</div></h5>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="post-meta"><h5>{{ post.date | date: "%d/%m/%Y" }}</h5></div>
       
       <div class="entry">
         {{ post.excerpt }}
