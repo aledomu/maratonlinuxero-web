@@ -2,6 +2,20 @@
 layout: page
 title: Información
 ---
+
+Si quieres escuchar el directo en tu reproductor favorito, las URL son:
+* Calidad HD:
+  * OGG Vorbis: <{{ site.stream-base-url }}audio-hd.ogg>
+  * MP3: <{{ site.stream-base-url }}audio-hd.mp3>
+* Calidad SD:
+  * OGG Vorbis: <{{ site.stream-base-url }}audio-sd.ogg>
+  * MP3: <{{ site.stream-base-url }}audio-sd.mp3>
+
+Para acceder al chat desde una aplicación externa, usa cualquier cliente IRC e introduce los siguientes datos:
+* Servidor: **irc.freenode.net**
+* Puerto: **6667**
+* Canal: **#maratonlinuxero**
+
 ## Contacto
 
 Si quieres **contactar** con nosotros lo puedes hacer a través de:
