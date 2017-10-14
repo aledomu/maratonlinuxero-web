@@ -1,11 +1,8 @@
+{% assign ctd = site.countdown %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <script type="text/javascript">
-    if(window.location.protocol == 'http:') {
-      location.href = location.href.replace("http://", "https://");
-    }
-  </script>
+
 
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -56,13 +53,10 @@
           <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
           <p class="site-description">{{ site.description }}</p>
 
-	  {% if site.countdown %}
-            <div id="countdown" style="margin-top:5px;"></div>
+	  {% if ctd.format and ctd.date.start and ctd.date.end and ctd.msg.start and ctd.msg.end %}
+	  <div id="countdown" style="margin-top:5px;"></div>
           {% endif %}
         </div>
-
-	<br />
-	<br />
 
         <nav id="nav-list">
           <a href="/">Inicio</a>
