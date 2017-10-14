@@ -2,16 +2,20 @@
 <script src="/js/moment.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
+    alert('{{ ctd.date.start }}')
   var balance = (new Date()).getTimezoneOffset()/60;
   var fecha_y_hora = moment("{{ ctd.date.start }}").add(-2 - balance, 'hours').toDate();
 
   $('#countdown').countdown(fecha_y_hora, { elapse: true })
     .on('update.countdown', function(event){
-      if (!event.elapsed){
-        $(this).html(event.strftime('{{ ctd.format }}'));
-      }
-      else {
-        $(this).html('{{ ctd.msg.start }}');
-      }
+        if (!event.elapsed){
+            $(this).html(event.strftime('{{ ctd.format }}'));
+        }
+        else if (moment().isBefore('{{ ctd.date.end }}')){
+            $(this).html('{{ ctd.msg.start }}');
+        }
+        else {
+            $(this).html('{{ ctd.msg.end }}');
+        }
     });
 </script>
