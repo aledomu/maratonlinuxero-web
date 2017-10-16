@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#02 Maratón Linuxero 1.1: NOLegalTech Radio"
+title: "#03 Maratón Linuxero 1.1: NOLegalTech Radio"
 date: 2017-10-15
 categories: Podcast
 youtube:
