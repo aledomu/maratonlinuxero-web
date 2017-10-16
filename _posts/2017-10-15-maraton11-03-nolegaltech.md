@@ -6,7 +6,7 @@ categories: Podcast
 youtube:
   id: czT2XxCJ5rQ
 podcast:
-  audio:https://archive.org/download/Maraton11NoLegalTech/Marat%C3%B3n11-NoLegalTech
+  audio: https://archive.org/download/Maraton11NoLegalTech/Marat%C3%B3n11-NoLegalTech
 tags: [audio, podcast, directo]
 ---
 Y finalizamos con una grabación de nuestros amigos de No Legal Tech, que aunque por motivos profesionales no podían estar en directo, nos enviaron este audio para compartirlo con todos los oyentes.  
