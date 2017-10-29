@@ -25,7 +25,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:summary>{{ site.feed.summary }}</itunes:summary>
 <itunes:author>{{ site.name }}</itunes:author>
 <itunes:explicit>"{{ site.feed.explicit }}"</itunes:explicit>
-<itunes:image href="{{ site.url }}{{ site.avatar }}" />
+<itunes:image href="{{ site.avatar }}" />
 <itunes:owner>
 <itunes:name>{{ site.name }}</itunes:name>
 <itunes:email>{{ site.email }}</itunes:email>
@@ -34,7 +34,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:subtitle>{{ site.feed.subtitle }}</itunes:subtitle>
 <image>
 <title>{{ site.name }}</title>
-<url>{{ site.url }}{{ site.avatar }}</url>
+<url>{{ site.avatar }}</url>
 <link>{{ site.url }}</link>
 </image>
 <itunes:category text="{{ site.feed.category.main }}">
@@ -64,7 +64,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
     <itunes:summary><![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
     <itunes:author>{{ site.name }}</itunes:author>
-    <itunes:image href="{{ site.url }}{{ site.avatar }}" />
+    <itunes:image href="{{ site.avatar }}" />
     <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
     <itunes:duration>{{ ep.podcast.duration }}</itunes:duration>
   </item>
