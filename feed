@@ -34,7 +34,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:subtitle>{{ site.feed.subtitle }}</itunes:subtitle>
 <image>
 <title>{{ site.name }}</title>
-<url>{{ site.avatar }}</url>
+<url>{{ site.url }}{{ site.avatar }}</url>
 <link>{{ site.url }}</link>
 </image>
 <itunes:category text="{{ site.feed.category.main }}">
