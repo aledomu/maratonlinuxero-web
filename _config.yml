@@ -20,7 +20,7 @@ baseurl: ""
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
 url: https://maratonlinuxero.org
-stream-base-url: https://emision.maratonlinuxero.org/
+stream-base-url: https://emision.maratonlinuxero.org:8443/
 
 # Enter your Isso URL to enable commenting on posts
 isso: 
