@@ -3,8 +3,8 @@ layout: default
 ---
 <div style="text-align:center; font-size:20px;">
 <video id="media" style="width:100%;" controls poster="/media/poster-directo.png" onplay="autoplay = true;" onpause="autoplay = false;">
-  <source src="https://emision.maratonlinuxero.org/redirect.php?m=audio-hd.ogg" type="audio/ogg" />
-  <source src="https://emision.maratonlinuxero.org/redirect.php?m=audio-hd.mp3" type="audio/mp3" />
+  <source src="{{ site.stream-base-url }}audio-hd.ogg" type="audio/ogg" />
+  <source src="{{ site.stream-base-url }}audio-hd.mp3" type="audio/mp3" />
 </video>
 
 Calidad de transmisión<br />
