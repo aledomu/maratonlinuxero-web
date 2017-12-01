@@ -32,11 +32,12 @@ piwik:
 
 # La cuenta atrás solo se activará si se escriben todos los valores
 # fecha-hora está en horario español peninsular (UTC+2)
+# fecha-hora necesita ajustar la zona horaria según si es horario de verano o invierno. Durante el horario de invierno hay que indicar una hora menos mientras se implementa esta característica
 countdown:
   format: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
   date:
-    start: 2017-12-03 15:00
-    end: 2017-12-03 19:00
+    start: 2017-12-03 14:00
+    end: 2017-12-03 18:00
   msg:
     start: Maratón Linuxero 1.2 ya ha comenzado. ¡Únete a la fiesta!
     end: Maratón Linuxero 1.2 ya ha terminado. ¡Gracias por participar!
