@@ -13,10 +13,6 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-}
-
 body {
   background: $white;
   font: 18px/1.4 $helvetica;
@@ -27,13 +23,6 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -164,12 +153,20 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
+body header, main, footer {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.masthead {
-  padding: 20px 0;
+body header, main {
+  max-width: 740px;
+}
+
+body header {
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -259,10 +256,6 @@ nav {
   }
 }
 
-//
-// .main
-//
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -293,17 +286,17 @@ nav {
   }
 }
 
-.wrapper-footer {
+footer {
+  width: 100%;
   margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
   text-align: center;
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

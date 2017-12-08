@@ -2,12 +2,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <script type="text/javascript">
-    if(window.location.protocol == 'http:') {
-      location.href = location.href.replace("http://", "https://");
-    }
-  </script>
-
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
   <meta charset="utf-8" />
@@ -46,48 +40,40 @@
   <link rel="icon" type="image/png" sizes="192x192"  href="/media/favicon/192x192.png">
 
 </head>
-{% include piwik.html %}
 <body>
-  <div class="wrapper-masthead">
-    <div class="container">
-      <header class="masthead clearfix">
-        <a href="/" class="site-avatar"><img src="{{ site.avatar }}" alt="" /></a>
+  <header class="clearfix">
+    <a href="/" class="site-avatar"><img src="{{ site.avatar }}" alt="" /></a>
 
-        <div class="site-info">
-          <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
-          <p class="site-description">{{ site.description }}</p>
+    <div class="site-info">
+      <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
 
-	  {% if ctd.format and ctd.date.start and ctd.date.end and ctd.msg.start and ctd.msg.end %}
-	  <div id="countdown" style="margin-top:5px;"></div>
-          {% endif %}
-        </div>
-
-        <nav id="nav-list">
-          <a href="/">INICIO</a>
-	  <a href="https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero" target="_blank">CHAT</a>
-          <a href="/informacion">INFORMACIÓN</a>
-          <a href="/noticias">NOTICIAS</a>
-          <a href="/podcast">PODCAST</a>
-          <a href="/deja-tu-audio">ENVÍANOS TU AUDIO</a>
-        </nav>
-      </header>
+      {% if ctd.format and ctd.date.start and ctd.date.end and ctd.msg.start and ctd.msg.end %}
+      <div id="countdown" style="margin-top:5px;"></div>
+      {% endif %}
     </div>
-  </div>
 
-  <div id="main" role="main" class="container">
+    <nav id="nav-list">
+      <a href="/">INICIO</a>
+      <a href="https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero" target="_blank">CHAT</a>
+      <a href="/informacion">INFORMACIÓN</a>
+      <a href="/noticias">NOTICIAS</a>
+      <a href="/podcast">PODCAST</a>
+      <a href="/deja-tu-audio">ENVÍANOS TU AUDIO</a>
+    </nav>
+  </header>
+
+  <main>
     {{ content }}
-  </div>
+  </main>
 
-  <div class="wrapper-footer">
-    <div class="container">
-      <footer class="footer">
-        {% include links.html type="footer" %}
-      </footer>
-    </div>
-  </div>
+  <footer>
+    {% include links.html type="footer" %}
+  </footer>
+
+  {% include piwik.html %}
 
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-
   {% include countdown.html %}
 </body>
 </html>
