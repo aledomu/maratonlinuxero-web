@@ -133,126 +133,113 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
-body header, main, footer {
-  margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-body header, main {
-  max-width: 740px;
-}
-
-body header {
-  margin-bottom: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
+body {
+  header, main, footer {
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-
-  img {
-    border-radius: 5px;
+  
+  header, main {
+    max-width: 740px;
   }
-}
+  
+  header {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $lightGray;
+  
+    #top {
+      display: flex;
 
-.site-info {
-  float: left;
+      @include mobile {
+    	  display: initial;
+      }
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin-top: 9px;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+      img {
+        margin-right: 15px;
+        width: 70px;
+        height: auto;
+      
+        @include mobile {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      
+      #info {
+      
+        @include mobile {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      
+      #name {
+        margin: 0;
+        line-height: initial;
+        color: $darkGray;
+        font-family: $helveticaNeue;
+        font-weight: 300;
+        font-size: 28px;
+        letter-spacing: 1px;
+      }
+      
+      #description {
+        margin: 0;
+        color: $gray;
+        font-size: 16px;
+      
+        @include mobile {
+          margin: 3px 0;
+        }
+      }
+    }
+  
+    nav {
+      margin-top: 23px;
+      font-family: $helveticaNeue;
+      font-size: 18px;
+      text-align: center;
+    
+      @include mobile {
+        display: block;
+        margin-top: 9px;
+        font-size: 16px;
+      }
+    
+      a {
+        color: $darkGray;
+        padding: 10px;
+        white-space: nowrap;
+    
+        @include mobile {
+          color: $blue;
+        }
+      }
+    }
 
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+      text-align: center;
     }
   }
-}
 
-#nav-list {
-  text-align: center;
-
-  a {
-    white-space: nowrap;
+  footer {
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: $lightGray;
+    text-align: center;
   }
 }
 
@@ -286,18 +273,6 @@ nav {
   }
 }
 
-footer {
-  width: 100%;
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-  text-align: center;
-}
-
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
@@ -308,11 +283,11 @@ table {
       border-spacing: 0;
   }
 
-  table,tr,th,td {
+  table, tr, th, td {
       border: 1px solid black;
   }
 
-  th,td {
+  th, td {
     padding: 10px;
 
   }
