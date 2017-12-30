@@ -5,6 +5,10 @@ date: 2017-10-15
 categories: Podcast
 youtube:
   id: czT2XxCJ5rQ
+  start:
+    h: 1
+    m: 8
+    s: 6
 podcast:
   audio: https://archive.org/download/Maraton11Etertics/Marat%C3%B3n11-Etertics
 tags: [audio, podcast, directo]

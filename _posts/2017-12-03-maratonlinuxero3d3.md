@@ -5,11 +5,14 @@ date: 2017-12-03
 categories: Podcast
 youtube:
   id: uzLbOi92A7c
+  start:
+    h: 2
+    m: 27
+    s: 28
 podcast:
   audio: https://archive.org/download/MaratonLinuxero3D/MaratonLinuxero3D
 tags: [audio, podcast, directo]
 ---
-
 La 3ª hora nos tocó al propio proyecto para comentar los avances y desafíos para Maratón Linuxero.
 
 Aquí tienes la emisión en YouTube:

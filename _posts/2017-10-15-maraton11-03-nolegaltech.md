@@ -5,6 +5,10 @@ date: 2017-10-15
 categories: Podcast
 youtube:
   id: czT2XxCJ5rQ
+  start:
+    h: 2
+    m: 4
+    s: 11
 podcast:
   audio: https://archive.org/download/Maraton11NoLegalTech/Marat%C3%B3n11-NoLegalTech
 tags: [audio, podcast, directo]

@@ -9,7 +9,6 @@ podcast:
   audio: https://archive.org/download/RailsGirlsVe/RailGirlsVe
 tags: [audio, podcast, directo]
 ---
-
 Iniciamos el directo del 3 de diciembre con Rail Girls venezuela de la mano de  Betsabeth Torres. Esta omunidad de chicas que brinda espacio para experimentar con tecnologías libres. Ayudando a reducir la brecha de mujeres en el área tecnológica.
 
 Aquí tienes la emisión en YouTube:
