@@ -2,6 +2,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <script type="text/javascript">
+    if(window.location.protocol == 'http:') {
+      location.href = location.href.replace("http://", "https://");
+    }
+  </script>
 
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
