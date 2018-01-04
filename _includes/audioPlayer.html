@@ -1,5 +1,7 @@
+{% if page.podcast.audio or include.audio %}
 <audio controls>
 	<source src="{% if include.audio %}{{ include.audio }}{% else %}{{ page.podcast.audio }}{% endif %}.ogg" type="audio/ogg">
 	<source src="{% if include.audio %}{{ include.audio }}{% else %}{{ page.podcast.audio }}{% endif %}.mp3" type="audio/mpeg">
 	<source src="{% if include.audio %}{{ include.audio }}{% else %}{{ page.podcast.audio }}{% endif %}.wav" type="audio/wav">
 </audio>
+{% endif %}
