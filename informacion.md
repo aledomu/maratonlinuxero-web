@@ -84,7 +84,7 @@ Otro aspecto que queremos resaltar es la **colaboración de empresas linuxeras e
 **La parrilla de directos** propuesta es la siguiente:
 
 ![#CartelDirectos](/media/carteldirectosmaratonlinuxero.png)
-###### Obra realizada por Dan Bernal Tapia (CC BY-NC-SA)
+###### Obra realizada por Dan Bernal Tapia (CC BY-SA 4.0)
 
 Cada hora será conducida por uno o más divulgadores y/o podcasters de habla hispana ampliamente conocidos en comunidades GNU/Linux.
 

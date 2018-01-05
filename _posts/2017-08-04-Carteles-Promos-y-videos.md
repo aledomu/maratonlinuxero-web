@@ -12,22 +12,22 @@ Carteles
 Agradecer a Juan Febles, Salva Vivas y Dan Bernal Tapia por el diseño de los carteles.
 
 ![#Cartel1](/media/CartelMaratonLinuxero.png)
-###### Obra realizada por Juan Febles (CC BY-NC-SA)
+###### Obra realizada por Juan Febles (CC BY-SA 4.0)
 
 ![#Cartel2](/media/CartelMaratonLinuxero2.png)
-###### Obra realizada por Salva Vivas (CC BY-NC-SA)
+###### Obra realizada por Salva Vivas (CC BY-SA 4.0)
 
 ![#Cartel3](/media/CartelMaratonLinuxero3.png)
-###### Obra realizada por Salva Vivas (CC BY-NC-SA)
+###### Obra realizada por Salva Vivas (CC BY-SA 4.0)
 
 ![#Cartel4](/media/CartelMaratonLinuxero4.png)
-###### Obra realizada por Salva Vivas (CC BY-NC-SA)
+###### Obra realizada por Salva Vivas (CC BY-SA 4.0)
 
 ![#Cartel5](/media/CartelMaratonLinuxero5.png)
-###### Obra realizada por Dan Bernal Tapia (CC BY-NC-SA)
+###### Obra realizada por Dan Bernal Tapia (CC BY-SA 4.0)
 
 ![#Cartel6](/media/carteldirectosmaratonlinuxero.png)
-###### Obra realizada por Dan Bernal Tapia (CC BY-NC-SA)
+###### Obra realizada por Dan Bernal Tapia (CC BY-SA 4.0)
 
 Wallpapers
 ----------
@@ -51,7 +51,7 @@ Agradecer a Mathias Tolosa por la edición, la locución y el guión de la prime
 **Promo 2: Épica**
 
 {% include audioPlayer.html audio="/media/PromoMaratonLinuxero2" %}
-###### Obra realizada por Mathias Tolosa (CC BY-NC-SA)
+###### Obra realizada por Mathias Tolosa (CC BY-SA 4.0)
 
 ###### Música utilizada: [Ross Bugden - Olympus](https://www.youtube.com/watch?v=BnmglWHoVrk) (CC BY 4.0)
 
@@ -63,13 +63,13 @@ A partir de los audios y los carteles hemos realizado unos sencillos vídeos con
 ###### Obra realizada por Juan Febles (CC BY-NC-SA)
 
 {% include videoPlayer.html video="/media/PromoMaratonLinuxero2" %}
-###### Obra realizada por Juan Febles (CC BY-NC-SA)
+###### Obra realizada por Juan Febles (CC BY-SA 4.0)
 
 Y Marta García ha elaborado este montaje con software libre: Synfig, PapagayoNG y Kdenlive.
 
 {% include videoPlayer.html video="/media/PromoMaratonLinuxero" %}
 ###### Obra realizada por Marta García (CC BY-NC-SA)
 
-Puedes utilizar todas estas obras para difundir el Maratón Linuxero respetando su licencia (Creative Commons, Reconocimiento-NoComercial-CompartirIgual: CC BY-NC-SA).
+Puedes utilizar todas estas obras respetando su licencia.
 
 Si eres **diseñador y/o artista** también puedes sumarte al evento con otros carteles, promos, vídeos, temas musicales.... Tú también puedes unirte. Ponte en contacto con nosotros de las siguientes formas:
