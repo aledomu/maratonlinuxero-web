@@ -1,21 +1,21 @@
-#Introducción
+# Introducción
 
 Este es el repositorio del sitio web del Maratón Linuxero y su feed RSS, los cuales están generados con Jekyll.
 
 
-#Información sobre Jekyll
+# Información sobre Jekyll
 
 Jekyll es un generador de páginas web estáticas y feeds escrito en Ruby. Para crear dichas páginas, admite texto plano escrito en varios formatos tipo markdown con inserciones en [Liquid](https://help.shopify.com/themes/liquid) y de código HTML. Para más información:
 * <https://gitlab.com/pages/jekyll/blob/master/README.md>
 * <https://jekyllrb.com/docs/home/>
 
 
-#Licencia(s) del proyecto
+# Licencia(s) del proyecto
 
 El contenido de la web y el material multimedia está bajo la licencia Creative Commons BY-SA-NC, y el código de la web se encuentra bajo la licencia AGPLv3.
 
 
-#Estructura de los contenidos
+# Estructura de los contenidos
 
 Los enlaces que se encuentran en la cabecera **visible** de la página son generados a partir de los archivos *.md* de la raíz del repositorio. En el caso de los posts que se encuentran resumidos en la página principal, son los archivos dentro de la carpeta `_posts`. Es requisito indispensable que los primeros especifiquen en su cabecera `layout: page` y los segundos `layout: post`.
 
@@ -24,7 +24,7 @@ Para cambiar la imagen del reproductor de la radio de la página principal hay q
 **[IMPORTANTE: Los nombres de los documentos y de los archivos dentro de las carpetas `media` y `docs` solo pueden contener caracteres alfanuméricos sin tilde. No pueden tener ***ñ***, espacios ni ningún símbolo que no sea "`-`".][1]**
 
 
-##Cómo escribir posts
+## Cómo escribir posts
 
 En el caso de los posts es además necesario que las cabeceras contengan valores para `title` (título), `date` (fecha en el que se escribió, en formato yyyy-mm-dd), categories (Noticias o Podcast, dependiendo del tipo de post) y tags (etiquetas separadas por comas). Ejemplo:
 
@@ -99,7 +99,7 @@ O en su defecto, que la sublista no sea ordenada (lo recomendado si la lista va 
 * **Para los enlaces a <archive.org> hay que usar los de tipo permalink como se explica [aquí](https://archive.org/help/video.php) para que en caso de que hagan alguna migración de servidores el hipervínculo siga funcionando.** Por otra parte, su embed no funciona, así que no se puede usar.
 
 
-#Configuración del sitio web y las páginas
+# Configuración del sitio web y las páginas
 
 Los valores de ajuste del sitio web en su totalidad se encuentran en `_config.yml`. Dichos valores son llamados desde los documentos y las plantillas mediante Liquid, siendo precedidos de `site.`. Cada página puede especificar más valores en su cabecera de la siguiente forma al principio del documento (al ser llamados, serían precedidos de `page.`):
 
@@ -111,18 +111,18 @@ Los valores de ajuste del sitio web en su totalidad se encuentran en `_config.ym
 	---
 
 
-##Módulos
+## Módulos
 
 Existen ciertos trozos de código que se pueden introducir en la página usando la instrucción `{% include archivo.html opcion=valor %}`. `archivo.html` es el nombre del archivo correspondiente a dicho módulo, los cuales están en la carpeta `_includes`, y `opcion="valor"` es el parámetro con el que puede llamarse, lo cual depende del módulo. Pueden especificarse varias opciones, cada una separada de un espacio. Si alguno de los parámetros obligatorios no son indicados, el módulo no se activará. Para la redacción de posts, los módulos de esta página son los siguientes.
 
-###audioPlayer.html
+### audioPlayer.html
 
 Inserta un reproductor de audio en el lugar del documento donde se llame a este archivo. Parámetros:
 
 * **audio**: Opcional si el mismo valor está especificado en la cabecera del post, a no ser que se quiera reproducir un audio distinto. Indica el enlace del archivo de audio a reproducir, sin su extensión. Solo soporta archivos OGG Vorbis, MP3 y WAV, por orden de preferencia.
 
 
-###videoPlayer.html
+### videoPlayer.html
 
 Inserta un reproductor de vídeo en el lugar del documento donde se llame a este archivo. Parámetros:
 
@@ -131,7 +131,7 @@ Inserta un reproductor de vídeo en el lugar del documento donde se llame a este
 * **height**: Opcional si el mismo valor en `_config.yml` o el valor `height` (sea al llamar el módulo o en `_config.yml`) ya están especificados, a no ser que se quiera una cifra diferente ya que tiene preferencia sobre `_config.yml` y el valor calculado a partir de `height`. Indica el ancho del reproductor de vídeo en píxeles.
 
 
-###youtubePlayer.html
+### youtubePlayer.html
 
 Inserta un reproductor de vídeo de YouTube en el lugar del documento donde se llame a este archivo. Parámetros:
 
@@ -143,14 +143,14 @@ Inserta un reproductor de vídeo de YouTube en el lugar del documento donde se l
 * **height**: Opcional si el mismo valor está especificado en `_config.yml`, a no ser que se quiera una cifra diferente ya que tiene preferencia sobre `_config.yml`. Indica el ancho del reproductor de vídeo en píxeles. Solo funciona si también se indica un valor para `width` al llamar el módulo.
 
 
-###links.html
+### links.html
 
 Inserta la lista de enlaces de contacto y plataformas en las que estamos presentes. Parámetros:
 
 * **type**: Opcional. Solo se usa para mostrar una lista gráfica de enlaces en el pie de página en lugar de una textual. Solo admite el valor "footer"
 
 
-#Cómo contribuir y/o mantener el sitio web
+# Cómo contribuir y/o mantener el sitio web
 
 En caso de que quieras mantener, mejorar o aportar algo más allá de la redacción o correcciones a la misma, aquí tienes unas **pautas**:
 * Usa identado con **dos espacios**, no tabulador.
@@ -161,7 +161,7 @@ En caso de que quieras mantener, mejorar o aportar algo más allá de la redacci
 * Y lo más importante **siempre**: *haz lo ***máximo*** posible con lo ***mínimo*** indispensable.* Usa el ingenio ;)
 
 
-#Cómo enviar las contribuciones
+# Cómo enviar las contribuciones
 
 Si no tienes permisos de edición directa del repositorio, emplea el clásico método de forkear el repositorio y hacer un Merge Request (o Pull Request, para los que están acostumbrados a GitHub) con los cambios. Además, nos viene bien que borres tu fork si tus cambios han sido aceptados para que el contador de forks nos sea representativo.
 
