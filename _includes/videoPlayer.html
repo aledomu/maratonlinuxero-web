@@ -1,7 +1,9 @@
 {% if page.podcast.video or include.video %}
-<video width="{% if include.width and include.height %}{{ include.width }}{% else %}{{ site.video.width }}{% endif %}" height="{% if include.width and include.height %}{{ include.height }}{% else %}{{ site.video.height }}{% endif %}" controls>
+{% if site.video.width or include.video or site.video.height or include.height %}
+<video width="{% if include.width %}{{ include.width }}{% elsif site.video.width %}{{ site.video.width }}{% else %}auto{% endif %}" height="{% if include.height %}{{ include.height }}{% elsif site.video.height %}{{ site.video.height }}{% else %}auto{% endif %}" controls>
 	<source src="{% if include.video %}{{ include.video }}{% else %}{{ page.podcast.video }}{% endif %}.webm" type="video/webm">
 	<source src="{% if include.video %}{{ include.video }}{% else %}{{ page.podcast.video }}{% endif %}.ogv" type="video/ogg">
 	<source src="{% if include.video %}{{ include.video }}{% else %}{{ page.podcast.video }}{% endif %}.mp4" type="video/mp4">
 </video>
+{% endif %}
 {% endif %}
