@@ -21,7 +21,7 @@ Los enlaces que se encuentran en la cabecera **visible** de la página son gener
 
 Para cambiar la imagen del reproductor de la radio de la página principal hay que reemplazar el archivo `PosterDirecto.png` dentro del directorio `media`.
 
-**[IMPORTANTE: Los nombres de los documentos y de los archivos dentro de las carpetas `media` y `docs` solo pueden contener caracteres alfanuméricos sin tilde. No pueden tener ***ñ***, espacios ni ningún símbolo que no sea "`-`".][1]**
+**Los nombres de los documentos y de los archivos dentro de las carpetas `media` y `docs` solo pueden contener caracteres alfanuméricos sin tilde. No pueden tener *ñ*, espacios ni ningún símbolo que no sea "`-`".**
 
 
 ## Cómo escribir posts
@@ -66,29 +66,29 @@ Y al final de la redacción (los letreros pueden cambiarse a gusto):
 Dentro del directorio `_posts` hay más ejemplos representativos.
 
 **Pautas de redacción:**
-* Hay que escribir en formato GFM [(Markdown, versión de GitHub)](https://github.com/ricval/Documentacion/blob/master/Guias/GitHub/mastering-markdown.md). Para escribir en una nueva línea dentro del mismo párrafo hay que acabar la línea previa con dos espacios.
+* Hay que escribir en formato [GFM (Markdown, versión de GitHub)](https://github.com/ricval/Documentacion/blob/master/Guias/GitHub/mastering-markdown.md). Para escribir en una nueva línea dentro del mismo párrafo hay que acabar la línea previa con dos espacios.
 * El [nombre del archivo][1] solo puede contener caracteres alfanuméricos reconocidos por el alfabeto inglés. A su vez, este debe ir precedido de la fecha en formato inverso con guiones, es decir, `YYYY-MM-DD-(nombre)`.
 * Usar solo `*` en las listas no ordenadas, nada de `+` o `-`, sin líneas vacías entre elementos y con identado de 2 espacios para sublistas, es decir:
 
-	* elemento1
-	* elemento2
-	  * elemento2.1
-	  * elemento2.2
-	* elemento3
+    	* elemento1
+    	* elemento2
+    	  * elemento2.1
+    	  * elemento2.2
+    	* elemento3
 
 * No usar numeración de varios niveles en las sublistas ordenadas, es decir:
 
-	1.
-	  1.1.
-	  1.2.
+    	1.
+    	  1.1.
+    	  1.2.
 
-Esto no está permitido. En su lugar hay que escribir:
+    Esto no está permitido. En su lugar hay que escribir:
 
-	1.
-	  1.
-	  2.
+    	1.
+    	  1.
+    	  2.
 
-O en su defecto, que la sublista no sea ordenada (lo recomendado si la lista va a tener más de un subnivel).
+    O en su defecto, que la sublista no sea ordenada (lo recomendado si la lista va a tener más de un subnivel).
 * En las listas hay que terminar las líneas sin puntos, salvo que haya un desarrollo/descripción de cierta extensión (como en este caso).
 * Todas las fechas deben ser escritas en horario español **peninsular** (UTC+1 en horario estándar), y especificarlo explícitamente tal como está aquí indicado.
 * Nunca crear títulos en nivel h1, es decir, que empiecen por una única `#`.
@@ -166,6 +166,3 @@ En caso de que quieras mantener, mejorar o aportar algo más allá de la redacci
 Si no tienes permisos de edición directa del repositorio, emplea el clásico método de forkear el repositorio y hacer un Merge Request (o Pull Request, para los que están acostumbrados a GitHub) con los cambios. Además, nos viene bien que borres tu fork si tus cambios han sido aceptados para que el contador de forks nos sea representativo.
 
 Si tienes permisos de edición directa del repositorio, haz los cambios directamente si ya han sido acordados con el resto de organizadores del evento. Si es para una sugerencia o para probar una funcionalidad nueva que quieres compartir con los demás, abre un branch nuevo en el repositorio y haz los cambios ahí. Una vez acordado, se introducirán los cambios en la rama principal.
-
-
-*[GFM]: GitHub Flavored Markdown
