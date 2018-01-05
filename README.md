@@ -135,7 +135,7 @@ Inserta un reproductor de vídeo en el lugar del documento donde se llame a este
 
 Inserta un reproductor de vídeo de YouTube en el lugar del documento donde se llame a este archivo. Parámetros:
 
-* **id**: Opcional si el mismo valor está especificado en la cabecera del post, a no ser que se quiera reproducir un vídeo distinto ya que tiene preferencia sobre éste. Indica el código identificador de vídeo de YouTube, es decir, lo que va después de "https://www.youtube.com/watch?v=" o "https://youtu.be/".
+* **id**: Opcional si el mismo valor está especificado en la cabecera del post, a no ser que se quiera reproducir un vídeo distinto ya que tiene preferencia sobre éste. Indica el código identificador de vídeo de YouTube, es decir, lo que va después de `https://www.youtube.com/watch?v=` o `https://youtu.be/`.
 * **h**: Opcional. Indica la hora de la duración del vídeo en la que establecer el comienzo de la reproducción. Toma preferencia sobre el valor del mismo parámetro en la cabecera del post, el cual solo aplica si no se indica un `id` o éste es igual al de la cabecera.
 * **m**: Opcional. Indica el minuto de la duración del vídeo en la que establecer el comienzo de la reproducción. Toma preferencia sobre el valor del mismo parámetro en la cabecera del post, el cual solo aplica si no se indica un `id` o éste es igual al de la cabecera.
 * **s**: Opcional. Indica el segundo de la duración del vídeo en la que establecer el comienzo de la reproducción. Toma preferencia sobre el valor del mismo parámetro en la cabecera del post, el cual solo aplica si no se indica un `id` o éste es igual al de la cabecera.
