@@ -80,7 +80,7 @@ Dentro del directorio `_posts` hay más ejemplos representativos.
 
 ## Para el sitio web
 
-En caso de que quieras mantener, mejorar o aportar algo más allá de la redacción o correcciones a la misma, aquí tienes unas **pautas**:
+En caso de que quieras mantener, mejorar o aportar algo más allá de la redacción o correcciones a la web, aquí tienes unas **pautas**:
 * Usa identado con **dos espacios**, no tabulador.
 * Ten en cuenta que esta página va a ser mantenida *principalmente* por redactores, de los cuales no todos tienen los conocimientos suficientes para entender las plantillas y los estilos CSS, y mucho menos para JavaScript, así que si vas a implementar alguna función nueva haz que sea configurable mediante valores desde `_config.yml` o la página específica, usando `{{ site.variable }}` o `{{ page.variable }}`, respectivamente. En el primer caso, documéntalo comentando los valores que crees en el mismo `_config.yml`, y en el segundo caso documéntalo en la sección "Cómo escribir posts" de este archivo.
 * Haz el código lo más legible que puedas.
