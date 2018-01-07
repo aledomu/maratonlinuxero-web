@@ -72,7 +72,7 @@ Dentro del directorio `_posts` hay más ejemplos representativos.
 * Todas las fechas deben ser escritas en horario español **peninsular** (UTC+1 en horario estándar), y especificarlo explícitamente tal como está aquí indicado.
 * Nunca crear títulos en nivel h1, es decir, que empiecen por una única `#`.
 * Las descripciones a pie de imagen deben escribirse en nivel h6, que en markdown sería `###### ` delante del texto que escribas.
-* **Cuida la ortografía, las mayúsculas-minúsculas y la puntuación, así como la claridad y ***universalidad*** de expresión. Recuerda que somos leídos por personas de muchos países de habla hispana, cada uno con sus giros lingüísticos particulares.** Es preferible tardar un poco más en lanzar una publicación si eso supone poder escribir de forma más serena y con mayor calidad. (PD: es **YouTube**, no Youtube)
+* **Cuida la ortografía, las mayúsculas-minúsculas y la puntuación, así como la claridad y *universalidad* de expresión. Recuerda que somos leídos por personas de muchos países de habla hispana, cada uno con sus giros lingüísticos particulares.** Es preferible tardar un poco más en lanzar una publicación si eso supone poder escribir de forma más serena y con mayor calidad. (PD: es **YouTube**, no Youtube)
 * Al escribir enlaces u otros datos del evento como el @ de Twitter, el email, etc, es **muy** recomendable llamar la variable que contiene la información (`{{ site.variable }}` o `{{ page.variable }}`) en lugar de escribir directamente el dato, tal como se indica en la siguiente sección. Si tienes dudas sobre este punto, óbvialo o consulta a @aledomu por aquí en GitLab o por su correo.
 * Es preferible integrar los enlaces en el texto, tal que [así](https://maratonlinuxero.org), en lugar de <https://maratonlinuxero.org>.
 * **Para los enlaces a <archive.org> hay que usar los de tipo permalink como se explica [aquí](https://archive.org/help/video.php) para que en caso de que hagan alguna migración de servidores el hipervínculo siga funcionando.** Por otra parte, su embed no funciona, así que no se puede usar.
@@ -86,7 +86,7 @@ En caso de que quieras mantener, mejorar o aportar algo más allá de la redacci
 * Haz el código lo más legible que puedas.
 * Sigue los flujos de lógica más simples y cortos. Si estás ante la duda de si elegir entre que sean entendibles o sean rápidos, elige que sea entendible.
 * Si vas a modificar un archivo ya existente, presta atención a los patrones de escritura del código y síguelos.
-* Y lo más importante **siempre**: *haz lo ***máximo*** posible con lo ***mínimo*** indispensable.* Usa el ingenio ;)
+* Y lo más importante **siempre**: *haz lo **máximo** posible con lo **mínimo** indispensable.* Usa el ingenio ;)
 
 
 ## Enviar contribuciones
