@@ -14,7 +14,7 @@ Jekyll es un generador de páginas web estáticas y feeds escrito en Ruby. Para 
 
 El contenido de la web y el material multimedia hecho íntegramente por los participantes de este proyecto está bajo la licencia Creative Commons BY-SA, y el código de la web se encuentra bajo la licencia AGPLv3. El material multimedia que tome obras de terceros pueden tener otras licencias, siempre Creative Commons y siendo especificada.
 
-Los podcast hasta el evento "Maratón Linuxero 3D" del 3 de diciembre de 2017, excepto el "Maratón Linuxero 1.1" del 15 de octubre de 2017 y la primera prueba de las cinco pruebas previas al "Maratón Linuxero I" del 12 de julio de 2017, están bajo licencia Creative Commons BY-NC-SA.
+Los podcast hasta el evento "Maratón Linuxero 3D" del 3 de diciembre de 2017, excepto el "Maratón Linuxero 1.1" del 15 de octubre de 2017, están bajo licencia Creative Commons BY-NC-SA.
 
 
 # Estructura de los contenidos
