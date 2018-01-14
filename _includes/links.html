@@ -9,4 +9,5 @@
   {% if site.feed.path %}{% if include.type != "footer" %}<li>Feed Podcast: {% endif %}<a href="{{ site.feed.path }}">{% if include.type != "footer" %}Maratón Linuxero{% else %}<i class="svg-icon feed"></i>{% endif %}</a>{% if include.type != "footer" %}</li>{% endif %}{% endif %}
   {% if site.archiveorg %}{% if include.type != "footer" %}<li>Audios en Archive.org: {% endif %}<a href="https://archive.org/details/@{{ site.archiveorg }}">{% if include.type != "footer" %}@{{ site.archiveorg }}{% else %}<i class="svg-icon archiveorg"></i>{% endif %}</a>{% if include.type != "footer" %}</li>{% endif %}{% endif %}
   {% if include.type == "footer" and site.android %}<a href="{{ site.android }}"><i class="svg-icon android"></i></a>{% endif %}
+  {% if include.type == "footer" and site.gitlab %}<a href="{{ site.gitlab }}"><i class="svg-icon gitlab"></i></a>{% endif %}
 {% if include.type != "footer" %}</ul>{% endif %}
