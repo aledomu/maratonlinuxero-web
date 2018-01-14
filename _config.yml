@@ -48,7 +48,6 @@ video:
   height: 315
 
 # Metadata and links
-gitlab: maratonlinuxero
 telegram:
   group: maratonlinuxero
   channel: maraton_linuxero
@@ -69,6 +68,7 @@ feed:
   subtitle: Los audios del Maratón Linuxero
 archiveorg: maratonlinuxero
 android: https://github.com/lefutray/ApkMaratonLinuxero/raw/master/app-stream-ml.apk
+gitlab: https://gitlab.com/maratonlinuxero
 
 #
 # You don't need to change any of the configuration flags below
