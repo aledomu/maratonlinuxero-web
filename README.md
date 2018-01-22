@@ -28,7 +28,7 @@ Para cambiar la imagen del reproductor de la radio de la página principal hay q
 
 # Configuración del sitio web y las páginas
 
-Los valores de ajuste del sitio web en su totalidad se encuentran en `_config.yml`. Dichos valores son llamados desde los documentos y las plantillas mediante Liquid, siendo precedidos de `site.`. Cada página puede especificar más valores en su cabecera de la siguiente forma al principio del documento (al ser llamados, serían precedidos de `page.`):
+Los valores de ajuste del sitio web en su totalidad se encuentran en [_config.yml](_config.yml). Dichos valores son llamados desde los documentos y las plantillas mediante Liquid, siendo precedidos de `site.`. Cada página puede especificar más valores en su cabecera de la siguiente forma al principio del documento (al ser llamados, serían precedidos de `page.`):
 
 	---
 	variable1: valor1
@@ -36,6 +36,15 @@ Los valores de ajuste del sitio web en su totalidad se encuentran en `_config.ym
 	variable3: valor3
 	(...)
 	---
+
+## Cuenta atrás
+
+Los valores de la cuenta atrás se encuentran en [_config.yml](_config.yml) bajo la variable padre `countdown`.
+
+
+## Reproductor de la página principal
+
+La portada del reproductor es tomada del archivo [/media/PosterDirecto.png](/media/PosterDirecto.png). Para cambiarla hay que mover la imagen a reemplazar a [/media/posters-directos-pasados](/media/posters-directos-pasados) y colocar la nueva portada en la misma localización que la anterior.
 
 
 ## Módulos
