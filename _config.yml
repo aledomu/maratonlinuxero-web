@@ -36,11 +36,11 @@ piwik:
 countdown:
   format: Quedan %-D día%!D, %-H hora%!H y %-M minuto%!M
   date:
-    start: 2018-03-31 15:00
-    end: 2018-03-31 19:00
+    start: 2018-03-31 19:00
+    end: 2018-03-31 23:00
   msg:
-    start: Maratón Linuxero 1.4 ya ha comenzado. ¡Únete a la fiesta!
-    end: Maratón Linuxero 1.4 ya ha terminado. ¡Gracias por participar!
+    start: Maratón Linuxero Edición Multimedia ya ha comenzado. ¡Únete a la fiesta!
+    end: Maratón Linuxero Edición Multimedia ya ha terminado. ¡Gracias por participar!
 
 # Video width and height
 video:
