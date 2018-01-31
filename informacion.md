@@ -92,6 +92,6 @@ Cada hora fue conducida por uno o más divulgadores y/o podcasters de habla hisp
 
 Actualmente el **[grupo de Telegram](https://telegram.me/{{ site.telegram.group }})** nos sirve para vertebrar y tomar decisiones y es una fuente de conocimientos y experiencias de esta comunidad que hemos creado en torno al Maratón Linuxero.
 
-Los eventos está en constante crecimiento y sabemos que es una muy buena forma de divulgar el software libre a personas que pueden no conocerlo o que no se sientan preparadas para usarlo en el día a día. Por eso queremos que en éstos eventos podamos tener la mayor interacción posible con nuestro público, otro motivo más para sumarse a nuestro grupo de Telegram.
+Los eventos están en constante crecimiento y sabemos que es una muy buena forma de divulgar el software libre a personas que pueden no conocerlo o que no se sientan preparadas para usarlo en el día a día. Por eso queremos que en éstos eventos podamos tener la mayor interacción posible con nuestro público, otro motivo más para sumarse a nuestro grupo de Telegram.
 
 Puede seguir nuestra sección de [Noticias](https://maratonlinuxero.org/noticias) en el que vamos a estar anunciando los próximos eventos, tanto "Maratones" (9 horas de directo) como los llamados "Medio Maratones" (4 horas en vivo).
