@@ -75,7 +75,7 @@ El **Maratón Linuxero** es un proyecto creado por podcasters y oyentes de GNU/L
 
 **Su origen** fue ver si era posible sacar adelante emisiones en directo como otras organizaciones han hecho, pero sin recurrir a sistemas privativos, o por lo menos que sean afines al Software Libre o de código abierto.
 
-En un principio barajamos servicios como Mumble o Butt y actualmente estamos utilizando Jitsi junto con OBS Studio para emitir en directo en YouTube, donde la facilidad de llegar a un gran número de usuarios junto con el feedback que ofrece su chat nos hizo decantarnos por esta fórmula. Realizamos pruebas que están tanto en YouTube como en formato podcast de audio.Se hicieron unas 5 pruebas antes del evento del 3 de septiembre (el primero de todos).
+En un principio barajamos servicios como Mumble o Butt y actualmente estamos utilizando Jitsi junto con OBS Studio para emitir en directo en YouTube, donde la facilidad de llegar a un gran número de usuarios junto con el feedback que ofrece su chat nos hizo decantarnos por esta fórmula. Realizamos pruebas que están tanto en YouTube como en formato podcast de audio. Se hicieron unas 5 pruebas antes del evento del 3 de septiembre (el primero de todos).
 
 {% include youtubePlayer.html id="videoseries?list=PLz7ZCufmrnKJCLvFetPvz2mdiBy4vSmKf" %}
 
