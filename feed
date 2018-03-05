@@ -1,73 +1,61 @@
 ---
 layout: null
 ---
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:atom="http://www.w3.org/2005/Atom"
-xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:atom="http://www.w3.org/2005/Atom"
+                   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+                   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
  
 <channel>
-<title>{{ site.name }}</title>
-<atom:link href="/feed/podcast" rel="self" type="application/rss+xml" />
-<link>{{ site.url }}</link>
-<description>{{ site.description }}</description>
-<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
-<language>es-es</language>
-<sy:updatePeriod>hourly</sy:updatePeriod>
-<sy:updateFrequency>1</sy:updateFrequency>
-<generator>http://jekyllrb.com</generator>
-<itunes:summary>{{ site.feed.summary }}</itunes:summary>
-<itunes:author>{{ site.name }}</itunes:author>
-<itunes:explicit>"{{ site.feed.explicit }}"</itunes:explicit>
-<itunes:image href="{{ site.avatar }}" />
-<itunes:owner>
-<itunes:name>{{ site.name }}</itunes:name>
-<itunes:email>{{ site.email }}</itunes:email>
-</itunes:owner>
-<managingEditor>{{ site.email }} ({{ site.name }})</managingEditor>
-<itunes:subtitle>{{ site.feed.subtitle }}</itunes:subtitle>
-<image>
-<title>{{ site.name }}</title>
-<url>{{ site.avatar }}</url>
-<link>{{ site.url }}</link>
-</image>
-<itunes:category text="{{ site.feed.category.main }}">
-<itunes:category text="{{ site.feed.category.sub1 }}" />
-</itunes:category>
-{% for ep in site.categories.Podcast %}
-  <item>
-    <title>{{ ep.title }}</title>
-    <link>{{ ep.url }}</link>
-    <comments>{{ ep.url }}#comments</comments>
-    <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
-    <dc:creator><![CDATA[{{ site.author | cdata_escape }}]]></dc:creator>
-{% for category in ep.tags %}
-    <category><![CDATA[{{ category | cdata_escape }}]]></category>
-{% endfor %}
-    <guid isPermaLink="{% if ep.podcast.guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast.guid %}{{ ep.podcast.guid }}{% else %}{{ ep.url }}{% endif %}</guid>
-    <description>
-        <![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
-    </description>
-    <content:encoded>
-        <![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]>
-    </content:encoded>
-
-    <enclosure url="{{ ep.podcast.audio }}.ogg" length="{{ ep.podcast.length }}" type="audio/ogg" />
-    <enclosure url="{{ ep.podcast.audio }}.mp3" length="{{ ep.podcast.length }}" type="audio/mpeg" />
-
-    <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
-    <itunes:summary><![CDATA[{{ ep.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
-    <itunes:author>{{ site.name }}</itunes:author>
-    <itunes:image href="{{ site.avatar }}" />
-    <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
-    <itunes:duration>{{ ep.podcast.duration }}</itunes:duration>
-  </item>
-{% endfor %}
-</channel>
+  <title>{{ site.name }}</title>
+  <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
+  <link>{{ site.url }}</link>
+  <description>{{ site.description }}</description>
+  <language>es-es</language>
+  <sy:updatePeriod>hourly</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+  <itunes:author>{{ site.name }}</itunes:author>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:image href="{{ site.url }}{{ site.avatar }}" />
+  <itunes:owner>
+    <itunes:name>{{ site.name }}</itunes:name>
+    <itunes:email>{{ site.email }}</itunes:email>
+  </itunes:owner>
+  <itunes:subtitle><![CDATA[{{ site.feed.subtitle | truncate: 255 | strip_html | cdata_escape }}]]></itunes:subtitle>
+  <itunes:summary><![CDATA[{{ site.feed.summary | truncate: 4000 | strip_html | cdata_escape }}]]></itunes:summary>
+  <image>
+    <title>{{ site.name }}</title>
+    <url>{{ site.url }}{{ site.avatar }}</url>
+    <link>{{ site.url }}</link>
+  </image>
+  <itunes:category text="{{ site.feed.category }}" />
+  {% for ep in site.categories.Podcast %}
+    <item>
+      <title>{{ ep.title }}</title>
+      <link>{{ site.url }}{{ ep.url }}</link>
+      <pubDate>{{ ep.date | date_to_rfc822 }}</pubDate>
+  {% for category in ep.tags %}
+      <category>category</category>
+  {% endfor %}
+      <guid isPermaLink="{% if ep.podcast.guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast.guid %}{{ ep.podcast.guid }}{% else %}{{ ep.url }}{% endif %}</guid>
+      <description>{{ ep.excerpt | strip_html }}</description>
+      <content:encoded>
+          <![CDATA[{{ ep.content | cdata_escape }}]]>
+      </content:encoded>
+  
+      <enclosure url="{{ ep.podcast.audio }}.ogg" length="0" type="audio/ogg" />
+      <enclosure url="{{ ep.podcast.audio }}.mp3" length="0" type="audio/mpeg" />
+  
+      <itunes:subtitle><![CDATA[{{ ep.excerpt | truncate: 255 | strip_html | cdata_escape }}]]></itunes:subtitle>
+      <itunes:summary><![CDATA[{{ ep.content | truncate: 4000 | strip_html | cdata_escape }}]]></itunes:summary>
+      <itunes:author>{{ site.name }}</itunes:author>
+      <itunes:image href="{{ site.url }}{{ site.avatar }}" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:keywords>{{ ep.tags | join: ", " }}</itunes:keywords>
+    </item>
+  {% endfor %}
+  </channel>
 </rss>
