@@ -23,7 +23,7 @@ Hasta la fecha se han emitido otros dos eventos más, que siendo de menor duraci
 
 En esta ocasión el Maratón Linuxero se complace en presentar un evento monográfico especial llamado **Edición Multimedia**, a celebrar el **31 de marzo a partir de las 17:00 UTC**, donde nos visitarán reconocidos profesionales del mundo de la fotografía y el video con Blender, nos contarán sus secretos, y nos explicarán las aplicaciones y usos que las herramientas libres proporcionan a su trabajo.
 
-**La parrilla de directos** (horas UTC) es la siguiente:
+**La parrilla de directos** (horas UTC) es la siguiente: 
 
    * 17:00 – Bienvenida. Formación con herramientas libres con Esti de [Saregune](http://www.saregune.net/es/)
    * 18:00 – Fotografía con Paco, [Tomás Senabre](http://www.tomassenabre.es/); Luis Portillo y Pablo Moratinos de [Fotolibre](http://fotolibre.net/)
