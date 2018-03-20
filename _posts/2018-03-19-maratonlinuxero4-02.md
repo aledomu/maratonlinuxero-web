@@ -21,7 +21,7 @@ de una forma más seria y profesional, sin perder la cercanía y espontaneidad a
 
 Hasta la fecha se han emitido otros dos eventos más, que siendo de menor duración, han continuando con la filosofía del Proyecto; y la **intención** a futuro es seguir con la misma temática de acercar el mundo GNU/Linux a los neófitos, asi como de reforzar y ampliar conocimientos para los usuarios actuales del Software Libre.
 
-En esta ocasión el Maratón Linuxero se complace en presentar un evento monográfico especial llamado **Edición Multimedia**, a celebrar el **31 de marzo a partir de las 17:00 UTC**, donde nos visitarán reconocidos profesionales del mundo de la fotografía y el video con Blender, nos contarán sus secretos, y nos explicarán las aplicaciones y usos que las herramientas libres proporcionan a su trabajo.
+En esta ocasión el Maratón Linuxero se complace en presentar un evento monográfico especial llamado **Edición Multimedia**, a celebrar el **31 de marzo a partir de las 17:00 UTC**, donde nos visitarán reconocidos profesionales del mundo de la fotografía y el diseño 3D con Blender, nos contarán sus secretos, y nos explicarán las aplicaciones y usos que las herramientas libres proporcionan a su trabajo.
 
 **La parrilla de directos** (horas UTC) es la siguiente: 
 
