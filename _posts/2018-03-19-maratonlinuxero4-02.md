@@ -27,7 +27,7 @@ En esta ocasión el Maratón Linuxero se complace en presentar un evento monogr�
 
    * 17:00 – Bienvenida. Formación con herramientas libres con Esti de [Saregune](http://www.saregune.net/es/)
    * 18:00 – Fotografía con Paco, [Tomás Senabre](http://www.tomassenabre.es/); Luis Portillo y Pablo Moratinos de [Fotolibre](http://fotolibre.net/)
-   * 19:00 – Blender y [Blenderianos](https://twitter.com/RBlenderianos), con [Suzanne](https://telegram.me/suzanneelhada) y [Ritxi](https://twitter.com/ritxinur)
+   * 19:00 – Diseño 3D con Blender y [Blenderianos](https://twitter.com/RBlenderianos), con [Suzanne](https://telegram.me/suzanneelhada) y [Ritxi](https://twitter.com/ritxinur)
    * 20:00 – Conclusiones y actualidad del Maratón
 
 
