@@ -10,8 +10,8 @@ Con este post queremos facilitar la difusión del proyecto a todos los que quier
 ![#Prensa](/media/Maraton31MAR18/Nota_de_Prensa.png)
 
 Descarga la Nota de Prensa en español o inglés:
-* [Nota de Prensa](/docs/Maraton31MAR18/Nota de prensa 31 MAR 18.pdf)
-* [Press Release](/docs/Maraton31MAR18/Nota de prensa 31 MAR 18_ENG.pdf)
+* [Nota de Prensa](/docs/Maraton31MAR18/Nota_de_prensa_31_MAR_18.pdf)
+* [Press Release](/docs/Maraton31MAR18/Nota_de_prensa_31_MAR_18_ENG.pdf)
 
 El **Maratón Linuxero** es un proyecto creado por podcasters y usuarios de GNU/Linux que quisieron realizar un evento en directo a través de aplicaciones y servicios de Software Libre. La primera edición del mismo se celebró el domingo 3 de septiembre de 2017 en la franja horaria de 15:00 a 24:00 horas (UTC+2), donde a lo largo de 9 horas de emisión
 continua podcasters de habla hispana trataron diversos temas relacionados con el mundo GNU/Linux.
