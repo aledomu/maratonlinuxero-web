@@ -4,9 +4,7 @@ title: Podcast del Maratón Linuxero
 ---
 ¿Te perdiste un directo? ¡No pasa nada!  
 Recogeremos todos los momentos y los pondremos a disposición de la comunidad en forma de podcast.
-El feed está creado desde GitLab:
-
-<a href="{{ site.rss }}">Podcast Feed</a>
+El feed está creado desde GitLab: [Feed Maratón Linuxero](https://maratonlinuxero.org/feed)
 
   <div class="posts">
   {% for post in site.categories.Podcast %}
