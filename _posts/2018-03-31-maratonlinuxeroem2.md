@@ -11,8 +11,8 @@ tags: [audio, podcast, directo]
 ---
 Fotografía con software Libre con Tomás Senabre [@tomassenabre](https://twitter.com/tomassenabre) y Pablo Moratinos [@pablomoratinos](https://twitter.com/pablomoratinos). Flujo de trabajo desde la captura hasta la fotografía final, equipo fotográfico,organización de biblioteca fotográfica.
 
-<http://www.tomassenabre.es/>
-<https://pablomoratinos.es/>
+<http://www.tomassenabre.es/>  
+<https://pablomoratinos.es/>  
 <http://fotolibre.net>:tutoriales, flujos, dudas, fotografía...
 
 Aquí tienes la emisión en YouTube:
