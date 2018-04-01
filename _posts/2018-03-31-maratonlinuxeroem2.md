@@ -13,7 +13,7 @@ Fotografía con software Libre con Tomás Senabre [@tomassenabre](https://twitte
 
 <http://www.tomassenabre.es/>  
 <https://pablomoratinos.es/>  
-<http://fotolibre.net>:tutoriales, flujos, dudas, fotografía...
+<http://fotolibre.net>: tutoriales, flujos, dudas, fotografía...
 
 Aquí tienes la emisión en YouTube:
 
