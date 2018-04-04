@@ -8,6 +8,7 @@ tags: [prensa, press]
 Con este post queremos facilitar la difusión del proyecto a todos los que quieran apoyarlo a través de su blog, podcast, canal u otro medio de comunicación. **Agradecemos la máxima difusión posible**.
 
 ![#Prensa](/media/Maraton31MAR18/Nota_de_Prensa.png)
+###### Obra realizada por Iñaki Pinto (CC BY-SA 4.0)
 
 Descarga la Nota de Prensa en español o inglés:
 * [Nota de Prensa](/docs/Maraton31MAR18/Nota de prensa 31 MAR 18.pdf)
