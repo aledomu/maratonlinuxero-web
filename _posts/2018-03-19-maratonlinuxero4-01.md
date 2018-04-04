@@ -14,7 +14,7 @@ Coordinado por nuestro compañero [Juan Febles](https://t.me/podcastlinux), en e
 Además de [Neodigit](https://www.neodigit.net/), nuestro proveedor de confianza de habla hispana, dos empresas de referencia en el sector de equipos informáticos con software libre nos apoyarán en este evento: [Vantpc](http://www.vantpc.es/) y [SlimbookEs](https://slimbook.es/). Muchas gracias!
 
 ![#Cartel](/media/Maraton31MAR18/maraton_multimedia_Paco+patrocinio.jpg)
-###### Obra realizada por Juan Febles (CC BY-SA 4.0)
+###### Obra realizada por Iñaki Pinto (CC BY-SA 4.0)
 
 La parrilla con las horas (UTC) es la siguiente:
 
