@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Usuarios de Maratón Linuxero. Conectividad Matrix-IRC-Telegram"
+date: 2018-04-01
+categories: News
+tags: [Prensa, noticias, directo]
+---
+Buenas noticias!. Gracias a @aledomu ya tenemos implementada la comunicación entre el grupo de Telegram (@maratonlinuxero), y nuestras salas en Matrix (#maratonlinuxero:matrix.org) e IRC (servidor: irc.freenode.org canal: #maratonlinuxero).
+
+En nuestro afán por ser cada día más libres, ya tienes la posibilidad de utilizar el protocolo que más te interese y a la vez estar comunicado con todos los Maratonistas!.
+
+Para llegar a Matrix puedes utilizar clientes como Riot (http://riot.im); y para IRC los clientes existentes en tu distribución preferida, o incluso hacerlo vía web (https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero).
+
+
+ http://twitter.com/matrixdotorg @maratonlinuxero #SoftwareLibre #CompartiendoLibertad
+
+Si quieres **contactar** con nosotros, puedes hacerlo de las siguientes formas: 
