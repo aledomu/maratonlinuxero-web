@@ -7,6 +7,9 @@ tags: [prensa, press, Thanks]
 ---
 Después de casi un mes desde la Edición Multimedia del Maratón Linuxero celebrado el 31 de marzo, no queríamos dejar pasar la oportunidad de dar las gracias a todos los que, de una manera u otra, nos apoyaron para que este proyecto siga muy vivo.
 
+![#Prensa](/media/Maraton31MAR18/gracias.png)
+###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
+
 En primer lugar queremos reconocer a nuestros activos oyentes que, aportando sus ideas desde el canal de Telegram hasta comentando en el chat en directo en [IRC](https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero) y [youtube](https://www.youtube.com/maratonlinuxero), colaboraron para que esta emisión monográfica fuese todo un éxito. 
 
 Agradecemos también a nuestros casi 200 seguidores en [Mastodon](https://mastodon.social/@maratonlinuxero) y 1500 en [Twitter](https://twitter.com/maratonlinuxero); y por supuesto a nuestro grupo de [Telegram](https://telegram.me/maratonlinuxero), que con 465 miembros constituye a día de hoy nuestro mejor canal de comunicación y promoción del Proyecto.
