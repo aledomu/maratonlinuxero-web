@@ -1,57 +1,12 @@
 ---
 layout: default
 ---
-<section style="text-align:center; font-size:20px;">
-  <video id="media" style="width:100%;" controls poster="/media/PosterDirecto.jpg" onplay="autoplay = true;" onpause="autoplay = false;">
-    <source src="{{ site.stream-base-url }}audio-hd.ogg" type="audio/ogg" />
-    <source src="{{ site.stream-base-url }}audio-hd.mp3" type="audio/mp3" />
-  </video>
-  
-  Calidad de transmisión<br />
-  <button id="button-hd" name="quality" onclick="reload_hd()" style="font-size:28px;"><b>HD</b></button>
-  &emsp;
-  <button id="button-sd" name="quality" onclick="reload_sd()" style="font-size:28px;">SD</button><br />
-  
-  <script>
-    var media = document.getElementById("media");
-    var stream_base_url = "{{ site.stream-base-url }}";
-    
-    function reload_hd() {
-      switch(media.currentSrc) {
-        case stream_base_url + "audio-sd.ogg":
-          media.src = stream_base_url + "audio-hd.ogg";
-          break;
-  
-        case stream_base_url + "audio-sd.mp3":
-          media.src = stream_base_url + "audio-hd.mp3";
-          break;
-      }
-  
-      document.getElementById("button-hd").innerHTML = "<b>HD</b>";
-      document.getElementById("button-sd").innerHTML = "SD";
-    }
-  
-    function reload_sd() {
-      switch(media.currentSrc) {
-        case stream_base_url + "audio-hd.ogg":
-          media.src = stream_base_url + "audio-sd.ogg";
-          break;
-  
-        case stream_base_url + "audio-hd.mp3":
-          media.src = stream_base_url + "audio-sd.mp3";
-          break;
-  
-      }
-  
-      document.getElementById("button-hd").innerHTML = "HD";
-      document.getElementById("button-sd").innerHTML = "<b>SD</b>";
-    }
-  
-    function reload_chat() {
-      document.getElementById("chat").src += "";
-    }
-  </script>
-</section>
+<video class="afterglow" id="live" height="{{ site.video.height }}" width="{{ site.video.width }}" poster="/media/PosterDirecto.jpg">
+  <source src="{{ site.stream-base-url }}audio-sd.ogg" type="audio/ogg" />
+  <source src="{{ site.stream-base-url }}audio-hd.ogg" type="audio/ogg" data-quality="hd" />
+  <source src="{{ site.stream-base-url }}audio-sd.mp3" type="audio/mp3" />
+  <source src="{{ site.stream-base-url }}audio-hd.mp3" type="audio/mp3" data-quality="hd" />
+</video>
 
 <br />
 
