@@ -2,7 +2,7 @@
 layout: post
 title: "Maratón Linuxero - Edición Multimedia #01: Presentación"
 date: 2018-03-19
-categories: Noticias
+category: Noticias
 tags: [noticias, prensa]
 ---
 Luces, cámara… Maratón!

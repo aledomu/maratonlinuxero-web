@@ -2,7 +2,7 @@
 layout: post
 title: "#03 Novedades en el Maratón Linuxero"
 date: 2017-08-13
-categories: Podcast
+category: Podcast
 youtube:
   id: xGhf-OQftyY
 podcast:
@@ -17,7 +17,7 @@ En la segunda sesión se compartió las experiencias con distribuciones GNU/Linu
 
 Por último se unieron Yoyo Fernández, Paco Estrada, José GDF, DJ Mao Mix Christian Jacobsen y Alex Strings para compartir sus conocimientos en la producción de audio en GNU/Linux.
 
-El último previo al directo será el domingo 27 de agosto a partir de las 15:00 horas (horario español peninsular, UTC+2) con 4 directos de una hora cada uno. Anímate a participar en una de ellas solicitando tu participación en Telegram: [@{{ site.telegram.group }}](https://telegram.me/{{ site.telegram.group }})
+El último previo al directo será el domingo 27 de agosto a partir de las 15:00 horas (horario español peninsular, UTC+2) con 4 directos de una hora cada uno. Anímate a participar en una de ellas solicitando tu participación en Telegram: [@{{ site.telegram }}](https://telegram.me/{{ site.telegram.group }})
 
 Aquí tienes la emisión en YouTube: 
 

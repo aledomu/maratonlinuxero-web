@@ -1,21 +1,17 @@
 ---
 layout: default
 ---
-
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <div class="entry">
-    {{ content }}
-    {% include links.html %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h1>{{ page.title }}</h1>
+      <hr class="star-primary">
+      <img src="/media/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+      <div class="text-justify">
+        {{ content }}
+        {% include links.html %}
+      </div>
+      <i>Escrito el {{ page.date | date: "%d/%m/%Y" }}</i>
+    </div>
   </div>
-
-  <div class="date">
-    Escrito el {{ page.date | date: "%d/%m/%Y" }}
-  </div>
-
-  {% unless page.comments == false %}
-  {% include isso.html %}
-  {% endunless %}
-</article>
-
-{% include afterglow.html %}
+</div>

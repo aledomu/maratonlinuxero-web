@@ -2,7 +2,7 @@
 layout: post
 title: "Maratón Linuxero - Edición Multimedia #02: Nota de Prensa"
 date: 2018-03-19
-categories: Noticias
+category: Noticias
 tags: [prensa, press]
 ---
 Con este post queremos facilitar la difusión del proyecto a todos los que quieran apoyarlo a través de su blog, podcast, canal u otro medio de comunicación. **Agradecemos la máxima difusión posible**.

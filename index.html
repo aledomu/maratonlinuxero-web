@@ -1,31 +1,84 @@
 ---
 layout: default
 ---
-<video class="afterglow" id="live" height="{{ site.video.height }}" width="{{ site.video.width }}" poster="/media/PosterDirecto.jpg">
-  <source src="{{ site.stream-base-url }}audio-sd.ogg" type="audio/ogg" />
-  <source src="{{ site.stream-base-url }}audio-hd.ogg" type="audio/ogg" data-quality="hd" />
-  <source src="{{ site.stream-base-url }}audio-sd.mp3" type="audio/mp3" />
-  <source src="{{ site.stream-base-url }}audio-hd.mp3" type="audio/mp3" data-quality="hd" />
-</video>
-
-<br />
-
-<section class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="post-meta"><h5>{{ post.date | date: "%d/%m/%Y" }}</h5></div>
-      
-      <div class="entry">
-        {{ post.excerpt }}
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+  <div id="podcast" class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Episodios</h2>
       </div>
-
-      <a href="{{ post.url }}" class="read-more">Sigue leyendo...</a>
-    </article>
-  {% endfor %}
+    </div>
+    <div class="row" style="justify-content:center;">
+    {% for post in site.posts %}
+    {% if post.category == "Podcast" %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <div class="portfolio-caption" style="color: initial;">
+            <h4>{{ post.title }}</h4>
+            <p class="text-muted">{{ post.subtitle }}</p>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+  <div id="news" class="container">
+    <div class="row" style="justify-content:center;">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Noticias</h2>
+      </div>
+    </div>
+    <div class="row">
+    {% for post in site.posts %}
+    {% unless post.category == "Podcast" %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <div class="portfolio-caption" style="color: initial;">
+            <h4>{{ post.title }}</h4>
+            <p class="text-muted">{{ post.subtitle }}</p>
+          </div>
+        </a>
+      </div>
+    {% endunless %}
+    {% endfor %}
+    </div>
+  </div>
 </section>
 
-{% include isso.html %}
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Información</h2>
+      </div>
+    </div>
+    <div class="text-justify">
+      <p>Si quieres escuchar el directo en tu reproductor favorito, las URL son:</p>
+      <ul>
+        <li>Calidad HD: <a href="{{ site.stream-baseurl }}audio-hd.ogg">OGG Vorbis</a> y <a href="{{ site.stream-base-url }}audio-hd.mp3">MP3</a></li>
+        <li>Calidad SD: <a href="{{ site.stream-baseurl }}audio-sd.ogg">OGG Vorbis</a> y <a href="{{ site.stream-base-url }}audio-sd.mp3">MP3</a></li>
+      </ul>
 
-{% include afterglow.html %}
+      <p>El <b>Maratón Linuxero</b> es un proyecto creado por podcasters y oyentes de GNU/Linux que quieren realizar un evento en directo a través de aplicaciones y servicios de software libre. Nuestro primer maratón fue el domingo 3 de septiembre de 15:00 a 24:00 horas (horario español peninsular, UTC+2) donde ofrecimos 9 horas de emisiones con podcasters de habla hispana.</p>
+
+      <p><b>Su origen</b> fue ver si era posible sacar adelante emisiones en directo como otras organizaciones han hecho, pero sin recurrir a sistemas privativos, o por lo menos que sean afines al Software Libre o de código abierto.</p>
+
+      <p>Otro aspecto que queremos resaltar es la <b>colaboración de empresas linuxeras españolas</b>. Tanto <a href="https://www.pcubuntu.es">PCUbuntu</a>, <a href="http://www.vantpc.es">VANT</a> como <a href="https://slimbook.es/">SLIMBOOK</a> no dudaron en respaldar este proyecto y sumarse a él.</p>
+
+      <p>No solo están colaborado podcasters, sino también <b>administradores de sistemas, desarrolladores, diseñadores y artistas</b> para realizar el blog, servicios, <a href="/Carteles-Promos-y-videos">carteles, promos y vídeos</a> del proyecto.</p>
+    </div>
+  </div>
+</section>

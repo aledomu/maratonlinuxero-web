@@ -1,0 +1,3 @@
+Jekyll	hex_to_rgb.rb	/^module Jekyll$/;"	m
+HexToRGB	hex_to_rgb.rb	/^  module HexToRGB$/;"	m	class:Jekyll
+hex_to_rgb	hex_to_rgb.rb	/^    def hex_to_rgb(hexval)$/;"	f	class:Jekyll.HexToRGB

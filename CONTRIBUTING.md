@@ -5,13 +5,13 @@ En el [README](README.md) se indica cómo está compuesto el sitio web.
 
 ## Escribir posts
 
-En el caso de los posts es además necesario que las cabeceras contengan valores para `title` (título), `date` (fecha en el que se escribió, en formato yyyy-mm-dd), categories (Noticias o Podcast, dependiendo del tipo de post) y tags (etiquetas separadas por comas). Ejemplo:
+En el caso de los posts es además necesario que las cabeceras contengan valores para `title` (título), `date` (fecha en el que se escribió, en formato yyyy-mm-dd), `category` (Noticias o Podcast, dependiendo del tipo de post) y `tags` (etiquetas separadas por comas). Ejemplo:
 
 	---
 	layout: post
 	title: "Vamos a morir todos"
 	date: 666-06-06
-	categories: Noticias
+	category: Noticias
 	tags: [fin del mundo, apocalipsis]
 	---
 
@@ -19,9 +19,9 @@ Si es la entrada correspondiente a un podcast, también hay que escribir:
 
 	---
 	(...)
-	categories: Podcast
+	category: Podcast
 	(...)
-	youtube
+	youtube:
 	  id: (lo que va después de "https://www.youtube.com/watch?v=" o "https://youtu.be/")
 	podcast:
 	  audio: (enlace al archivo de audio sin extensión)

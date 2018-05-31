@@ -2,7 +2,7 @@
 layout: post
 title: "#01 Qué es y cómo anda el Maratón Linuxero"
 date: 2017-07-16
-categories: Podcast
+category: Podcast
 youtube:
   id: xx87M-JDwVs
 podcast:
@@ -19,7 +19,7 @@ Lo siguiente ha sido utilizar OBS Studio como forma de conectar el audio de Jits
 
 Comentamos nuestras dudas y sugerencias y seguimos en marcha para que el 3 de septiembre a las 15:00 horas (horario español peninsular, UTC+2) todo esté perfecto.
 
-No dudes en ponerte en contacto con nosotros si deseas colaborar de cualquier manera. Para ello, lo más directo es ponerte en contacto a través del **[grupo de Telegram](https://telegram.me/{{ site.telegram.group }})** para este evento.
+No dudes en ponerte en contacto con nosotros si deseas colaborar de cualquier manera. Para ello, lo más directo es ponerte en contacto a través del **[grupo de Telegram](https://telegram.me/{{ site.telegram }})** para este evento.
 
 Aquí tienes la emisión en YouTube:
 

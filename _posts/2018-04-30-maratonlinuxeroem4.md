@@ -2,7 +2,7 @@
 layout: post
 title: "Maratón Linuxero - Edición Multimedia #05: Gracias!"
 date: 2018-04-30
-categories: Noticias
+category: Noticias
 tags: [prensa, press, Thanks]
 ---
 Después de casi un mes desde la Edición Multimedia del Maratón Linuxero celebrado el 31 de marzo, no queríamos dejar pasar la oportunidad de dar las gracias a todos los que, de una manera u otra, nos apoyaron para que este proyecto siga muy vivo.

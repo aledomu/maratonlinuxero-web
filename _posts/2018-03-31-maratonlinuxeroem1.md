@@ -2,7 +2,7 @@
 layout: post
 title: "#01 Maratón Linuxero Edición Multimedia: Saregune"
 date: 2018-03-31
-categories: Podcast
+category: Podcast
 youtube:
   id: QN9_b8SYZo8
 podcast:

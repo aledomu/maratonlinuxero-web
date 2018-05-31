@@ -1,9 +1,5 @@
-#
-# This file contains configuration flags to customize your site
-#
-
 # Name of your site (displayed in the header)
-name: Maratón Linuxero
+title: Maratón Linuxero
 
 # Short bio or description (displayed in the header)
 description: Proyecto colaborativo de emisiones en directo a través de Software Libre
@@ -19,16 +15,24 @@ baseurl: ""
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
-url: https://maratonlinuxero.org
-stream-base-url: https://emision.maratonlinuxero.org:8443/
-
-# Enter your Isso URL to enable commenting on posts
-isso: 
+url: localhost:4000
+#url: https://maratonlinuxero.org
+stream-baseurl: https://emision.maratonlinuxero.org:8443/
 
 # Enter url and site-id to track visits
 piwik:
   url: 
   site-id: 
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fd9600
+  secondary: ff5503   
+  secondary-dark: 333
+
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
 # La cuenta atrás solo se activará si se escriben todos los valores
 # fecha-hora está en horario español peninsular (UTC+2)
@@ -48,24 +52,18 @@ video:
   height: 315
 
 # Metadata and links
-telegram:
-  group: maratonlinuxero
-  channel: maraton_linuxero
+email: maratonlinuxero@disroot.org
+telegram: maratonlinuxero
+matrix: #maratonlinuxero:matrix.org
 mastodon:
   name: maratonlinuxero@mastodon.social
   url: https://mastodon.social/@maratonlinuxero
-twitter: maratonlinuxero
-facebook:
-email: maratonlinuxero@disroot.org
-youtube: https://www.youtube.com/maratonlinuxero
+gitlab: https://gitlab.com/maratonlinuxero
 feed:
   path: /feed
   category: Technology
   summary: Sesiones del Maratón Linuxero
   subtitle: Los audios del Maratón Linuxero
-archiveorg: maratonlinuxero
-android: https://github.com/lefutray/ApkMaratonLinuxero/raw/master/app-stream-ml.apk
-gitlab: https://gitlab.com/maratonlinuxero
 
 #
 # You don't need to change any of the configuration flags below

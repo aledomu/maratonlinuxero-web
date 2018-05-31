@@ -2,7 +2,7 @@
 layout: post
 title: "#02 Avanzando en el Maratón Linuxero"
 date: 2017-07-30
-categories: Podcast
+category: Podcast
 youtube:
   id: dtyrImIRius
 podcast:
@@ -27,7 +27,7 @@ Poco a poco vamos creando la parrilla de directos con muchos podcasters que se h
 
 Varios podcasters que estarán en el evento comentan posibles temas a tratar el domingo 3 de septiembre.
 
-Diseñadores y artistas también se están sumando al evento con carteles y promos. Y empresas afines al Software Libre quieren colaborar con accesorios, camisetas y pegatinas. Recuerda que tú también puedes unirte. Ponte en contacto con nosotros a través de Telegram: [@{{ site.telegram.group }}](https://telegram.me/{{ site.telegram.group }})
+Diseñadores y artistas también se están sumando al evento con carteles y promos. Y empresas afines al Software Libre quieren colaborar con accesorios, camisetas y pegatinas. Recuerda que tú también puedes unirte. Ponte en contacto con nosotros a través de Telegram: [@{{ site.telegram }}](https://telegram.me/{{ site.telegram.group }})
 
 Aquí tienes la emisión en YouTube: 
 

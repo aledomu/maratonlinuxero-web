@@ -2,7 +2,7 @@
 layout: post
 title: "Carteles, promos y vídeos"
 date: 2017-08-04
-categories:
+category:
 tags: [promo, cartel, vídeo]
 ---
 Un aspecto muy importante del evento es su promoción y máxima difusión en la linuxfera. Con ese fin hemos querido realizar de forma colaborativa carteles y promos de audio y vídeo para llegar al máximo número de personas.

@@ -2,7 +2,7 @@
 layout: post
 title: "#02 Maratón Linuxero 1.1: Etertics"
 date: 2017-10-15
-categories: Podcast
+category: Podcast
 youtube:
   id: czT2XxCJ5rQ
   start:

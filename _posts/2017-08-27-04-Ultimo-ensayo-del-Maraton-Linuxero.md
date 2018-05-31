@@ -2,7 +2,7 @@
 layout: post
 title: "#04 Último ensayo del Maratón Linuxero"
 date: 2017-08-27
-categories: Podcast
+category: Podcast
 youtube:
   id: mHjgFF0aX3Y
 podcast:

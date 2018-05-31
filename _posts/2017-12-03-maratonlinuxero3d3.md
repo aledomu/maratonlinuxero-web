@@ -2,7 +2,7 @@
 layout: post
 title: "#03 Maratón Linuxero 3D: Maratón Linuxero"
 date: 2017-12-03
-categories: Podcast
+category: Podcast
 youtube:
   id: uzLbOi92A7c
   start:

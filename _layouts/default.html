@@ -2,38 +2,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <script type="text/javascript">
-    if(window.location.protocol == 'http:') {
-      location.href = location.href.replace("http://", "https://");
-    }
-  </script>
-
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-  <meta charset="utf-8" />
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
-
-  {% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt| strip_html }}" />
-  <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-  {% else %}
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
-  <meta property="og:description" content="{{ site.description }}" />
-  {% endif %}
-  <meta name="author" content="{{ site.name }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed">
 
-  {% if page.title %}
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="twitter:title" content="{{ page.title }}" />
-  {% endif %}
 
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-
-  <link rel="stylesheet" type="text/css" href="/css/main.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.feed.path }}" />
 
   <!-- Favicon -->
   <meta name="theme-color" content="#ffffff">
@@ -44,43 +38,102 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/media/favicon/96x96.png">
   <link rel="icon" type="image/png" sizes="144x144" href="/media/favicon/144x144.png">
   <link rel="icon" type="image/png" sizes="192x192"  href="/media/favicon/192x192.png">
-
 </head>
 {% include piwik.html %}
-<body>
+<body id="page-top" class="index">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+	<a class="navbar-brand page-scroll" href="/"><img src="{{ site.avatar }}" alt="" height="30" style="margin-right: 10px;">{{site.title}}</a>
+      </div>
+
+      <ul class="nav navbar-nav">
+      </ul>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/feed">Feed</a>
+          </li>
+          <li>
+            <a class="page-scroll" target="_blank" rel="noopener noreferrer" href="https://riot.im/app/#/room/{{ site.matrix }}">Chat</a>
+          </li>
+          <li>
+            <a class="page-scroll" target="_blank" rel="noopener noreferrer" href="{{ site.mastodon.url }}">Mastodon</a>
+          </li>
+          <li>
+            <a class="page-scroll" target="_blank" rel="noopener noreferrer" href="https://telegram.me/{{ site.telegram }}">Telegram</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!-- Header -->
   <header>
-    <section id="top">
-      <a href="/"><img src="{{ site.avatar }}" alt="" /></a>
-
-      <section id="info">
-        <h1 id="name"><a href="/">{{ site.name }}</a></h1>
-        <p id="description">{{ site.description }}</p>
-
-        {% if ctd.format and ctd.date.start and ctd.date.end and ctd.msg.start and ctd.msg.end %}
-        <div id="countdown" style="margin-top:5px;"></div>
-        {% endif %}
-      </section>
-    </section>
-
-    <nav>
-      <a href="/">INICIO</a>
-      <a href="https://kiwiirc.com/client/irc.freenode.net:6667/#maratonlinuxero" target="_blank">CHAT</a>
-      <a href="/informacion">INFORMACIÓN</a>
-      <a href="/noticias">NOTICIAS</a>
-      <a href="/podcast">PODCAST</a>
-      <a href="/deja-tu-audio">ENVÍANOS TU AUDIO</a>
-    </nav>
+    <div class="container">
+      <div class="intro-text">
+	{% if ctd.format and ctd.date.start and ctd.date.end and ctd.msg.start and ctd.msg.end %}
+        <div class="intro-lead-in">
+          <h4 id="countdown"></h4>
+        </div>
+	{% endif %}
+        <video id="live" class="afterglow" height="{{ site.video.height }}" width="{{ site.video.width }}" poster="/media/PosterDirecto.jpg">
+          <source src="{{ site.stream-baseurl }}audio-sd.ogg" type="audio/ogg" />
+          <source src="{{ site.stream-baseurl }}audio-hd.ogg" type="audio/ogg" data-quality="hd" />
+          <source src="{{ site.stream-baseurl }}audio-sd.mp3" type="audio/mp3" />
+          <source src="{{ site.stream-baseurl }}audio-hd.mp3" type="audio/mp3" data-quality="hd" />
+        </video>
+      </div>
+    </div>
   </header>
+  <!--
+    {% for page in site.pages %}
+      {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+    {% endfor %}
+   -->
 
-  <main>
-    {{ content }}
-  </main>
+  {{ content }}
 
   <footer>
-    {% include links.html type="footer" %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright © {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+        </div>
+      </div>
+    </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- jQuery Version 1.11.0 -->
+  <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
   {% include countdown.html %}
+  <script type="text/javascript" src="/js/afterglow.min.js"></script>
 </body>
 </html>
