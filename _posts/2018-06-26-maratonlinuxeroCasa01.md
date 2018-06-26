@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maratón Linuxero - Edición Multimedia #06: Presentación!"
+title: "Maratón Linuxero - Migra tu hogar a GNU/Linux #01: Presentación!"
 date: 2018-06-26
 categories: Noticias
 tags: [prensa, press, Thanks]
