@@ -22,4 +22,5 @@ El sábado 21 de Julio a las 17:00 (UTC) tendremos la oportunidad de disfrutar d
 ###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
 
 
+
 Te invitamos a participar en nuestros canales habituales, con tus preguntas y sugerencias, como siempre, **a través de nuestros canales habituales**:
