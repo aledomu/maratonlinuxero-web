@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Maratón Linuxero - Edición Multimedia #05: Gracias!"
-date: 2018-04-30
+title: "Maratón Linuxero - Edición Multimedia #06: Presentación!"
+date: 2018-06-26
 categories: Noticias
 tags: [prensa, press, Thanks]
 ---
