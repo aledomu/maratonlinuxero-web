@@ -10,7 +10,7 @@ Como bien sabéis a partir de las 17:00 (UTC) del sábado 21 de Julio tenemos ot
 
 Te esperamos para compartir un apasionante viaje hacia la libertad donde haremos las siguientes paradas:
 
-- 1700 (UTC) - Introducción al evento, de la mano de J[Juan Febles](https://t.me/@JuanFebles).
+- 1700 (UTC) - Introducción al evento, de la mano de [Juan Febles](https://t.me/@JuanFebles).
 - 1710 (UTC) - Migrando nuestro PC Escritorio; con [Suzanne](https://t.me/@suzanneelhada), [Voro Mataix](https://t.me/@voromv) de la Comunidad GNU/Linux Valencia, Enderhe, e [Iñaki Pinto](https://t.me/@Pan0ram1x).
 - 1800 (UTC) - Liberando nuestro router, con [Macjosan](https://t.me/@macjosan) de la comunidad Naseros) y [Juan Febles](https://t.me/@JuanFebles)
 - 1900 (UTC) - Nuestro propio media center o PC para todo, con [Alejandro de Slimbook](https://t.me/@XYZsmk), [Christian Jacobsen](https://t.me/@cjacobsen) y [Natanael](https://t.me/@NeoRanger)
