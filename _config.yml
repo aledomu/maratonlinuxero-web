@@ -54,7 +54,7 @@ video:
 # Metadata and links
 email: maratonlinuxero@disroot.org
 telegram: maratonlinuxero
-matrix: #maratonlinuxero:matrix.org
+matrix: "#maratonlinuxero:matrix.org"
 mastodon:
   name: maratonlinuxero@mastodon.social
   url: https://mastodon.social/@maratonlinuxero
