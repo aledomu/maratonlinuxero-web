@@ -15,8 +15,7 @@ baseurl: ""
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
-url: localhost:4000
-#url: https://maratonlinuxero.org
+url: https://maratonlinuxero.org
 stream-baseurl: https://emision.maratonlinuxero.org:8443/
 
 # Enter url and site-id to track visits
