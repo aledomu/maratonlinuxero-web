@@ -23,6 +23,9 @@ Si es la entrada correspondiente a un podcast, también hay que escribir:
 	(...)
 	youtube:
 	  id: (lo que va después de "https://www.youtube.com/watch?v=" o "https://youtu.be/")
+	  h: (hora del vídeo en la que comienza la reproducción, opcional)
+	  m: (minuto del vídeo en el que comienza la reproducción, opcional)
+	  s: (segundo del vídeo en el que comienza la reproducción, opcional)
 	podcast:
 	  audio: (enlace al archivo de audio sin extensión)
 	  video: (igual que arriba pero para el archivo de vídeo, si hay)
