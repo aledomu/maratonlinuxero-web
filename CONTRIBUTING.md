@@ -94,6 +94,6 @@ En caso de que quieras mantener, mejorar o aportar algo más allá de la redacci
 
 ## Enviar contribuciones
 
-Si no tienes permisos de edición directa del repositorio, emplea el clásico método de forkear el repositorio y hacer un Merge Request (o Pull Request, para los que están acostumbrados a GitHub) con los cambios contra la rama `dev`, no `master`. Además, nos viene bien que borres tu fork si tus cambios han sido aceptados para que el contador de forks nos sea representativo.
+Emplea el clásico método de forkear el repositorio y hacer un Merge Request (o Pull Request, para los que están acostumbrados a GitHub) con los cambios contra la rama `dev`, no `master`. Además, nos viene bien que borres tu fork si tus cambios han sido aceptados para que el contador de forks nos sea representativo.
 
-Si tienes permisos de edición directa del repositorio, haz los cambios directamente si ya han sido acordados con el resto de organizadores del evento. Si es para una sugerencia o para probar una funcionalidad nueva que quieres compartir con los demás, abre un branch nuevo en el repositorio y haz los cambios ahí. Una vez acordado, se introducirán los cambios en la rama principal.
+Si eres miembro del equipo organizador y tienes permisos de edición directa del repositorio, haz los cambios en la rama `dev` y descarga los artifactspara testear la web localmente. Si todo va bien, fusiona los cambios a la rama `master`. Si es para una sugerencia o para probar una funcionalidad nueva que quieres compartir con los demás, abre un branch nuevo en el repositorio y haz los cambios ahí. Una vez acordado, se introducirán los cambios en la rama `dev` y luego en la rama `master`.
