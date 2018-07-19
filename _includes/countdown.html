@@ -3,7 +3,7 @@
 
 <script type="text/javascript">
   var balance = (new Date()).getTimezoneOffset()/60;
-  var fecha_y_hora = moment("{{ ctd.date.start }}").add(-2 - balance, 'hours').toDate();
+  var fecha_y_hora = moment("{{ ctd.date.start }}").add(-balance, 'hours').toDate();
 
   $('#countdown').countdown(fecha_y_hora, { elapse: true })
     .on('update.countdown', function(event){
