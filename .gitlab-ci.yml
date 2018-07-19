@@ -15,3 +15,13 @@ pages:
     - public
   only:
   - master
+
+pages-test:
+  stage: deploy
+  script:
+  - bundle exec jekyll build -d export
+  artifacts:
+    paths:
+    - export
+  except:
+  - master
