@@ -75,8 +75,8 @@ Dentro del directorio `_posts` hay más ejemplos representativos.
 * Todas las fechas deben ser escritas en horario español **peninsular** (UTC+1 en horario estándar), y especificarlo explícitamente tal como está aquí indicado.
 * Nunca crear títulos en nivel h1, es decir, que empiecen por una única `#`.
 * Las descripciones a pie de imagen deben escribirse en nivel h6, que en markdown sería `###### ` delante del texto que escribas.
-* **Cuida la ortografía, las mayúsculas-minúsculas y la puntuación, así como la claridad y *universalidad* de expresión. Recuerda que somos leídos por personas de muchos países de habla hispana, cada uno con sus giros lingüísticos particulares.** Es preferible tardar un poco más en lanzar una publicación si eso supone poder escribir de forma más serena y con mayor calidad. (PD: es **YouTube**, no Youtube)
-* Al escribir enlaces u otros datos del evento como el @ de Twitter, el email, etc, es **muy** recomendable llamar la variable que contiene la información (`{{ site.variable }}` o `{{ page.variable }}`) en lugar de escribir directamente el dato, tal como se indica en la siguiente sección. Si tienes dudas sobre este punto, óbvialo o consulta a @aledomu por aquí en GitLab o por su correo.
+* **Cuida la ortografía, las mayúsculas-minúsculas y la puntuación, así como la claridad y _universalidad_ de expresión. Recuerda que somos leídos por personas de muchos países de habla hispana, cada uno con sus giros lingüísticos particulares.** Es preferible tardar un poco más en lanzar una publicación si eso supone poder escribir de forma más serena y con mayor calidad. (PD: es **YouTube**, no Youtube)
+* Al escribir enlaces u otros datos del evento como el @ de Twitter, el email, etc, es **muy** recomendable llamar la variable que contiene la información (`{{ site.variable }}` o `{{ page.variable }}`) en lugar de escribir directamente el dato, tal como se indica en la siguiente sección. Si tienes dudas sobre este punto, consulta a @Panoramix77.
 * Es preferible integrar los enlaces en el texto, tal que [así](https://maratonlinuxero.org), en lugar de <https://maratonlinuxero.org>.
 * **Para los enlaces a <archive.org> hay que usar los de tipo permalink como se explica [aquí](https://archive.org/help/video.php) para que en caso de que hagan alguna migración de servidores el hipervínculo siga funcionando.** Por otra parte, su embed no funciona, así que no se puede usar.
 
@@ -85,11 +85,11 @@ Dentro del directorio `_posts` hay más ejemplos representativos.
 
 En caso de que quieras mantener, mejorar o aportar algo más allá de la redacción o correcciones a la web, aquí tienes unas **pautas**:
 * Usa identado con **dos espacios**, no tabulador.
-* Ten en cuenta que esta página va a ser mantenida *principalmente* por redactores, de los cuales no todos tienen los conocimientos suficientes para entender las plantillas y los estilos CSS, y mucho menos para JavaScript, así que si vas a implementar alguna función nueva haz que sea configurable mediante valores desde `_config.yml` o la página específica, usando `{{ site.variable }}` o `{{ page.variable }}`, respectivamente. En el primer caso, documéntalo comentando los valores que crees en el mismo `_config.yml`, y en el segundo caso documéntalo en la sección "Cómo escribir posts" de este archivo.
+* Ten en cuenta que esta página va a ser mantenida _principalmente_ por redactores, de los cuales no todos tienen los conocimientos suficientes para entender las plantillas y los estilos CSS, y mucho menos para JavaScript, así que si vas a implementar alguna función nueva haz que sea configurable mediante valores desde `_config.yml` o la página específica, usando `{{ site.variable }}` o `{{ page.variable }}`, respectivamente. En el primer caso, documéntalo comentando los valores que crees en el mismo `_config.yml`, y en el segundo caso documéntalo en la sección "Cómo escribir posts" de este archivo.
 * Haz el código lo más legible que puedas.
 * Sigue los flujos de lógica más simples y cortos. Si estás ante la duda de si elegir entre que sean entendibles o sean rápidos, elige que sea entendible.
 * Si vas a modificar un archivo ya existente, presta atención a los patrones de escritura del código y síguelos.
-* Y lo más importante **siempre**: *haz lo **máximo** posible con lo **mínimo** indispensable.* Usa el ingenio ;)
+* Y lo más importante **siempre**: _haz lo **máximo** posible con lo **mínimo** indispensable._ Usa el ingenio ;)
 
 
 ## Enviar contribuciones

@@ -19,7 +19,7 @@ Los podcast hasta el evento "Maratón Linuxero 3D" del 3 de diciembre de 2017, e
 
 # Estructura de los contenidos
 
-Los enlaces que se encuentran en la cabecera **visible** de la página son generados a partir de los archivos *.md* de la raíz del repositorio. En el caso de los posts que se encuentran resumidos en la página principal, son los archivos dentro de la carpeta [_posts](/_posts). Es requisito indispensable que los primeros especifiquen en su cabecera `layout: page` y los segundos `layout: post`.
+Los enlaces que se encuentran en la cabecera **visible** de la página son generados a partir de los archivos _.md_ de la raíz del repositorio. En el caso de los posts que se encuentran resumidos en la página principal, son los archivos dentro de la carpeta [_posts](/_posts). Es requisito indispensable que los primeros especifiquen en su cabecera `layout: page` y los segundos `layout: post`.
 
 **Los nombres de los documentos y de los archivos dentro de las carpetas [media](media) y [docs](docs) solo pueden contener caracteres alfanuméricos sin tilde. No pueden tener *ñ*, espacios ni ningún símbolo que no sea "`-`".**
 
