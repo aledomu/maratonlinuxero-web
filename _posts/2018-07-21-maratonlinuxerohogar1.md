@@ -11,8 +11,8 @@ tags: [audio, podcast, directo]
 ---
 El sábado 21 de julio tuvimos otra emisión de Maratón Linuxero, Migra tu hogar a GNU/Linux.
 
-En esta primera hora Juan Febles, coordinador del proyecto, realizó una introducción al evento.
-La temática de esta primera hora fue migrando nuestro PC Escritorio; con Voro Mataix de la Comunidad GNU/Linux Valencia, Enderhe, e Iñaki Pinto. 
+Liberando nuestro router, con Macjosan (de la Comunidad Naseros) y Juan Febles.
+ 
 
 Aquí tienes la emisión en YouTube:
 
