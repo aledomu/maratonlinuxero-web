@@ -21,7 +21,7 @@ El **01 de Septiembre** nos vemos en el 1º aniversario del proyecto Maratón Li
 
 
 
-![#Prensa](/media/05_MARATON_21JUL18/gracias.jpg
+![#Prensa](/media/05_MARATON_21JUL18/gracias.jpg)
 ###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
 
 
