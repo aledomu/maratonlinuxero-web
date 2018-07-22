@@ -1,0 +1,24 @@
+---
+layout: post
+title: "#02 Maratón Linuxero Migra tu Hogar a GNU/Linux: Router"
+date: 2018-07-21
+category: Podcast
+youtube:
+  id: ieJhi7GAihs
+podcast:
+  audio: https://archive.org/download/MLHogar01/MLHogar-02
+tags: [audio, podcast, directo]
+---
+El sábado 21 de julio tuvimos otra emisión de Maratón Linuxero, Migra tu hogar a GNU/Linux.
+
+Liberando nuestro router, con Macjosan (de la Comunidad Naseros) y Juan Febles.
+
+Aquí tienes la emisión en YouTube:
+
+{% include youtubePlayer.html %}
+
+Y aquí el audio extraído:
+
+{% include audioPlayer.html %}
+
+Si quieres **contactar** con nosotros, puedes hacerlo de las siguientes formas:
