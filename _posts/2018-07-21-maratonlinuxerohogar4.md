@@ -6,7 +6,7 @@ category: Podcast
 youtube:
   id: ieJhi7GAihs
 podcast:
-  audio: https://archive.org/download/MLHogar01/MLHogar-04
+  audio: https://archive.org/download/MLHogar04/MLHogar-04
 tags: [audio, podcast, directo]
 ---
 El sábado 21 de julio tuvimos otra emisión de Maratón Linuxero, Migra tu hogar a GNU/Linux.
