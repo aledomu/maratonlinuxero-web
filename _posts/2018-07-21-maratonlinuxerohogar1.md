@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#01 Maratón Linuxero Migra tu Hogar a GNU/Linux:Pc de Escritorio"
+title: "#01 Maratón Linuxero Migra tu Hogar a GNU/Linux: Pc de Escritorio"
 date: 2018-07-21
 category: Podcast
 youtube:
