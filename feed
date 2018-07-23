@@ -10,7 +10,7 @@ layout: null
                    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
  
 <channel>
-  <title>{{ site.name }}</title>
+  <title>{{ site.title }}</title>
   <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}</link>
   <description>{{ site.description }}</description>
@@ -27,7 +27,7 @@ layout: null
   <itunes:subtitle><![CDATA[{{ site.feed.subtitle | truncate: 255 | strip_html | cdata_escape }}]]></itunes:subtitle>
   <itunes:summary><![CDATA[{{ site.feed.summary | truncate: 4000 | strip_html | cdata_escape }}]]></itunes:summary>
   <image>
-    <title>Maratón Linuxero</title>
+    <title>{{ site.title }}</title>
     <url>{{ site.url }}{{ site.avatar }}</url>
     <link>{{ site.url }}</link>
   </image>
