@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MAratón Linuxero 1º Aniversario - Presentación"
+title: "Maratón Linuxero 1º Aniversario - Presentación"
 date: 2018-07-30
 category: Noticias
 tags: [prensa, press]
