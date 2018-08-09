@@ -302,8 +302,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        /* padding-top: 300px; */
     }
 
     header .intro-text .intro-lead-in {
@@ -864,4 +863,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+.nav>li>a {
+	padding: 23px 10px;
 }
