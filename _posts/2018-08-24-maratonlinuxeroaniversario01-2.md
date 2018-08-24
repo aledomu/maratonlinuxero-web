@@ -6,7 +6,7 @@ category: Noticias
 tags: [prensa, press]
 ---
 
-Si eres de los que no vives en horario UTC ⏰  (como la mayoría de los hispanohablantes), no te preocupes, te mostramos una referencia para que no te pierdas la emisión!, y si crees que es muy temprano o muy tarde ya sabes, siempre nos podrás escuchar a posteri a través de archive.org!
+Si eres de los que no vives en horario UTC ⏰  (como la mayoría de los hispanohablantes), no te preocupes, te mostramos una referencia para que no te pierdas la emisión!, y si crees que es muy temprano o muy tarde ya sabes, siempre nos podrás escuchar a posteri a través de [archive.org](https://archive.org/details/@maratonlinuxero)!
 
 ¡Lo estamos preparando todo, y sólo nos faltas tú! Recuerda, el día **01 de Septiembre a partir de las 11:00 (UTC)**
 
