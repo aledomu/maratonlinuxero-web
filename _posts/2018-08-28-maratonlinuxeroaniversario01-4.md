@@ -10,8 +10,8 @@ tags: [prensa, press]
 
 La primera opción y la más recomendada es que visites esta web y uses el reproductor de la portada. Además, puedes escucharnos desde el canal de Youtube.
 
-[Nuestro reproductor en Web](https://maratonlinuxero.org/)
-[Youtube](https://www.youtube.com/maratonlinuxero/)
+-[Nuestro reproductor en Web](https://maratonlinuxero.org/)
+-[Youtube](https://www.youtube.com/maratonlinuxero/)
 
 ![#Prensa](/media/06_MARATON1Aniversario/siguelaemision2.png)
 ###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
