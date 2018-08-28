@@ -8,13 +8,13 @@ tags: [prensa, press]
 
 No podríamos organizar este evento sin la ayuda inestimable de empresas comprometidas con el Software Libre; y es por ello que damos las gracias a nuestros patrocinadores, ya que sin sus aportaciones este Proyecto estaría incompleto:
 
--[VANT PC](http://www.vantpc.es/)
+- [VANT PC](http://www.vantpc.es/)
 
--[Slimbook](https://slimbook.es/)
+- [Slimbook](https://slimbook.es/)
 
--[Linux Español](https://linuxespanol.net/)
+- [Linux Español](https://linuxespanol.net/)
 
-... y por supuesto nuestro proveedor de confianza, -[Neodigit](https://www.neodigit.net/)
+... y por supuesto nuestro proveedor de confianza, [Neodigit](https://www.neodigit.net/)
 
 ![#Prensa](/media/06_MARATON1Aniversario/Patrocinadores.png)
 ###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
