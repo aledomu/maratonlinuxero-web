@@ -6,11 +6,11 @@ category: Noticias
 tags: [prensa, press]
 ---
 
-** Sorteo de regalos **
+**Sorteo de regalos**
 
 Pegatinas, camisetas, webcam covers, capturadoras gamer, teclados, ¡discos SSD!... cualquiera de estos regalos pueden ser tuyos únicamente enviando un audio de unos segundos explicándonos cuáles crees que han sido las aportaciones que ha tenido el Proyecto Maratón Linuxero con el Software Libre y GNU/Linux.
 
-Sólo tienes que enviarnos tu audio a n**maratonlinuxero@disroot.com** para participar. ¡Suerte!
+Sólo tienes que enviarnos tu audio a **maratonlinuxero@disroot.com** para participar. ¡Suerte!
 
 Muchas gracias a nuestros patrocinadores por su apoyo.
 
