@@ -14,6 +14,9 @@ No podríamos organizar este evento sin la ayuda inestimable de empresas comprom
 
 - [Linux Español](https://linuxespanol.net/)
 
+- [Librebit](https://www.librebit.com/) 
+
+
 ... y por supuesto nuestro proveedor de confianza, [Neodigit](https://www.neodigit.net/)
 
 ![#Prensa](/media/06_MARATON1Aniversario/Patrocinadores.png)
