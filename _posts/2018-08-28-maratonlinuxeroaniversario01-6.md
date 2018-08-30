@@ -14,6 +14,10 @@ Sólo tienes que enviarnos tu audio a **maratonlinuxero@disroot.org** para parti
 
 Muchas gracias a nuestros patrocinadores por su apoyo.
 
+![#Prensa](/media/06_MARATON1Aniversario/Patrocinadores.png)
+###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
+
+
 ![#Prensa](/media/06_MARATON1Aniversario/Anuncio_sorteo_maratón_primer_aniversario2.jpg)
 ###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
 
