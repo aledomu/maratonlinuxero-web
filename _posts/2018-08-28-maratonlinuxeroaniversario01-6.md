@@ -12,6 +12,11 @@ Pegatinas, camisetas, webcam covers, capturadoras gamer, teclados, ¡discos SSD!
 
 Sólo tienes que enviarnos tu audio a **maratonlinuxero@disroot.org** para participar. ¡Suerte!
 
+**Últimas noticias (30 de agosto de 2018)**
+Estamos muy orgullosos de presentar a nuestro nuevo patrocinador, [Librebit](https://www.librebit.com/), una empresa comprometida con el Software Libre y las soluciones que aporta al mundo empresarial. 
+
+
+
 Muchas gracias a nuestros patrocinadores por su apoyo.
 
 ![#Prensa](/media/06_MARATON1Aniversario/Patrocinadores.png)
