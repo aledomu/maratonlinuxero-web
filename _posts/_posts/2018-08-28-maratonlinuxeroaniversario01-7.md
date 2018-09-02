@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maratón Linuxero 1º Aniversario - ¡Gracias!"
-date: 2018-08-28
+date: 2018-09-02
 category: Noticias
 tags: [gracias]
 ---
