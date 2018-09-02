@@ -13,7 +13,8 @@ tags: [gracias]
 ![#Prensa](/media/06_MARATON1Aniversario/Muchas_gracias.png)
 ###### Obra realizada por el equipo de Maratón Linuxero (CC BY-SA 4.0)
 
-En primer queremos darte las gracias a ti, querido **oyente** y seguidor del Proyecto. Aunque las cifras son impresionantes en cuanto a seguimiento en los Grupos de Usuarios ( [Telegram](https://t.me/maratonlinuxero), [Matrix](https://riot.im/app/#/room/#maratonlinuxero:matrix.org), [Mastodon](https://mastodon.social/@maratonlinuxero), o [Twitter](https://twitter.com/maratonlinuxero), [Youtube](youtube.com/maratonlinuxero), y [Facebook](https://www.facebook.com/maraton.linuxero.7) ), lo más importante de esta iniciativa de divulgación del software libre eres tú, y sin tu apoyo no podríamos existit. Además eres pieza importante en esta plataforma ya que compartes y haces que la cultura libre se visibilice.
+
+En primer queremos darte las gracias a ti, querido **oyente** y seguidor del Proyecto. Aunque las cifras son impresionantes en cuanto a seguimiento en los Grupos de Usuarios ( [Telegram](https://t.me/maratonlinuxero), [Matrix](https://riot.im/app/#/room/#maratonlinuxero:matrix.org), [Mastodon](https://mastodon.social/@maratonlinuxero), o [Twitter](https://twitter.com/maratonlinuxero), [Youtube](https://www.youtube.com/maratonlinuxero), y [Facebook](https://www.facebook.com/maraton.linuxero.7) ), lo más importante de esta iniciativa de divulgación del software libre eres tú, y sin tu apoyo no podríamos existit. Además eres pieza importante en esta plataforma ya que compartes y haces que la cultura libre se visibilice.
 
 Además nos quedamos sin palabras para agradecer a nuestros patrocinadores, muchos de ellos desde que esta andadura se inició, pero otros incorporados recientemente, el hecho que fomenten el software libre y que aporten esos regalos que sorteamos durante nuestros directos. En esta edición tuvimos el placer de tener con nosotros a:
 
