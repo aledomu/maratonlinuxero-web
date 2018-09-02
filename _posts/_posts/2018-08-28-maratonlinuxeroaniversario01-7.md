@@ -6,6 +6,8 @@ category: Noticias
 tags: [gracias]
 ---
 
+**¡GRACIAS!**
+
 24 horas después de la emisión del Maratón Linuxero 1º Aniversario no queríamos dejar pasar más tiempo sin agradecer a quienes, de una u otra manera, pusieron su granito de arena y se sumaron a la gran fiesta del Software Libre en habla Hispana que pudimos disfrutar el día de ayer.
 
 ![#Prensa](/media/06_MARATON1Aniversario/Muchas_gracias.png)
