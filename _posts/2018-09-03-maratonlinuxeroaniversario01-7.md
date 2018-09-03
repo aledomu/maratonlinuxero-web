@@ -3,7 +3,7 @@ layout: post
 title: "Maratón Linuxero 1º Aniversario - ¡Gracias!"
 date: 2018-09-03
 category: Noticias
-tags: [gracias]
+tags: [gracias, maraton linuxero, maraton linuxero]
 ---
 
 **¡GRACIAS!**
@@ -55,7 +55,7 @@ En el aspecto organizativo, para la realización de esta última edición 1º An
 * **Técnico:**
 	* Alejandro Domínguez
 	* Christian Jacobsen
-	* Natanael
+	* Natanael Garrido
 * **Artístico:**
 	* Ritxi
 	* Marco Benavente
